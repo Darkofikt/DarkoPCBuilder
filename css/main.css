@@ -32,12 +32,9 @@ html, body {
 .button-container {
     position: relative;
 }
-
 /*-------------------------
 	Inline help tip
 --------------------------*/
-
-
 .help-tip{
 	position: absolute;
 	top: 8px;
@@ -51,6 +48,7 @@ html, body {
 	font-size: 12px;
 	line-height: 22px;
 	cursor: default;
+    font-family:"Lucida Console",monospace;
     
 }
 
