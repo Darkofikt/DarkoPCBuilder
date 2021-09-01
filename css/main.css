@@ -1,0 +1,31 @@
+.button-list {
+    width:300px;
+    margin-top: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family:"Lucida Console",monospace;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.main-container {
+    height: 100%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+}
+
+.initial-paragraph {
+    text-align: center  ;
+    width:300px;
+    justify-self:flex-start;
+    font-family:"Lucida Console",monospace;
+
+}
+
