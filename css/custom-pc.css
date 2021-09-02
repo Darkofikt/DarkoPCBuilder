@@ -1,0 +1,70 @@
+html{
+	background-color:#eaf0f2;
+}
+
+body{
+	font:14px/1.4 'Arial', 'Helvetica', sans-serif;
+	color: #5b6469;
+}
+
+.custom-front{
+	text-align: center;
+	padding: 40px 0 40px;
+	font-family: 'PT Serif', 'Cambria', serif;
+}
+
+
+.back-button{
+	list-style:none;
+	text-align:center;
+	margin-bottom:48px;
+}
+
+
+.back-button li a{
+	display: inline-block;
+	margin: 0 8px;
+}
+
+.back-button li:hover{
+	opacity: 0.9;
+}
+
+.back-button li a{
+	color:#fff !important;
+	text-decoration: none !important;
+	font-size:15px;
+	font-weight: bold;
+	display: inline-block;
+	padding:6px 14px;
+	border-radius:3px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+.back-button li a{
+	background-color: #6bb9e1;
+}
+
+.input-container{
+	background-color: rgba(78, 77, 77, 0.486);
+	border-radius: 4px;
+	padding: 40px;
+	margin: 0 auto;
+	max-width: 600px;
+	position: relative;
+	margin: 0 auto 100px;
+    font-family:"Lucida Console",monospace;
+}
+
+.question-label{
+    margin-bottom: 10px;
+}
+
+.question-container{
+    margin-top:10px;
+}
+
+
+
+
+

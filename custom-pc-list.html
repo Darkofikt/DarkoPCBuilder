@@ -1,12 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/custom-pc.css">
+    <title>Jebiga</title>
 </head>
+
 <body>
-    
+    <div class="main-container-custom">
+        <h1 class="custom-front">Custom PC Build</h1>
+        <div class="back-button">
+            <li><a href="index.html">BACK</a></li>
+        </div>
+        <div class="input-container">
+            <div class="questions-gpu">
+                <h1>GPU</h1>
+                <div class="question-container">
+                    <div class="question-label">Which brand of GPU?</div>
+                    <input type="radio" name="gpu">NVIDIA</input>
+                    <input type="radio" name="gpu">AMD</input>
+                </div>
+            </div>
+            <div class="questions-mobo">
+                <h1>Motherboard</h1>
+                <div class="question-container">
+                    <div class="question-label">Select the socket of the motherboard</div>
+                    <select name="motherboard-socket-choice">
+                        <option selected disabled hidden></option>
+                        <option value="AM4">AM4</option>
+                        <option value="LGA1151">LGA1151</option>
+                        <option value="LGA1700">LGA1700</option>
+                    </select>
+                </div>
+            </div>
+            <div class="questions-cpu">
+                <h1>CPU</h1>
+                <div class="question-container">
+                    <div class="question-label">Select the number of cores</div>
+                    <select name="cpu-cores-choice">
+                        <!-- TODO: Add more options depending on cores(WORK IN PROGRESS),FIX order of questions -->
+                            <optgroup label="Office CPU">
+                            <option selected disabled hidden></option>
+                            <option value="first">First Value</option>
+                            <option value="second">Second Value</option>
+                            <option value="third">Third Value</option>
+                            </optgroup>
+                    </select>
+                </div>
+            </div>
+            <div class="questions-ram">
+                <h1>RAM</h1>
+                <div class="question-container">
+                    <div class="question-label">Select the MHz and size</div>
+                    <select name="ram-mhz-choice">
+                        <option selected disabled hidden></option>
+                        <option value="3600">3600</option>
+                        <option value="3200">3200</option>
+                        <option value="3000">3000</option>
+                    </select>
+                    <select name="ram-size-choice">
+                        <option selected disabled hidden></option>
+                        <option value="4GB">4GB</option>
+                        <option value="8GB">8GB</option>
+                        <option value="12GB">12GB</option>
+                    </select>
+                </div>
+            </div>
+            <div class="questions-psu">
+                <h1>PSU</h1>
+                <div class=questions-container">
+                    <div class="question-label">Select the PSU wattage</div>
+                    <select name="psu-wattage-choice">
+                        <option selected disabled hidden></option>
+                        <option value="500">500</option>
+                        <option value="600">600</option>
+                        <option value="750">750</option>
+                        <option value="1000">1000</option>
+                    </select>
+                    <div>Recommended: <span id="recommended-wattage"></span></div>
+                </div>
+            </div>
+        </div>
 </body>
+
 </html>
