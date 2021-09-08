@@ -12,9 +12,14 @@
 <body>
     <div class="main-container-custom">
         <h1 class="custom-front">Custom PC Build</h1>
-        <div class="back-button">
-            <li><a href="index.html">BACK</a></li>
+        <div class="button-container">
+            <ul>
+                <li class="back-button"><a>BACK</a></li>
+                <li><a>Budged PC Build</a></li>
+                <li><a>Performance PC Build</a></li>
+            </ul>
         </div>
+
         <div class="input-container">
             <div class="questions-gpu">
                 <h1>GPU</h1>
@@ -41,13 +46,13 @@
                 <div class="question-container">
                     <div class="question-label">Select the number of cores</div>
                     <select name="cpu-cores-choice">
-                        <!-- TODO: Add more options depending on cores(WORK IN PROGRESS),FIX order of questions -->
-                            <optgroup label="Office CPU">
+                        <!-- Add more LABELS for cpu options(optgroups) -->
+                        <optgroup label="Office CPU">
                             <option selected disabled hidden></option>
                             <option value="first">First Value</option>
                             <option value="second">Second Value</option>
                             <option value="third">Third Value</option>
-                            </optgroup>
+                        </optgroup>
                     </select>
                 </div>
             </div>
@@ -82,6 +87,11 @@
                     </select>
                     <div>Recommended: <span id="recommended-wattage"></span></div>
                 </div>
+            </div>
+            <div>
+                <ul class="result-button">
+                    <li><a href="custom-pc-list-result.html">Generate PC List</a></li>
+                </ul>
             </div>
         </div>
 </body>
