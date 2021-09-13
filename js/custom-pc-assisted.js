@@ -152,6 +152,7 @@ function runExpert(currentNode) {
 
         questionContainer.style.display = "none";
         conclusionContainer.style.display = "block";
+        refreshButton.style.display = "block";
 
         displayConclusion(currentNode.conclusion);
         
@@ -180,6 +181,7 @@ function runExpert(currentNode) {
 const decisionTree = buildDecisionTree();
 const questionContainer = document.querySelector(".question");
 const conclusionContainer = document.querySelector(".conclusion");
+const refreshButton = document.querySelector(".refresh-button-container");
 
 function startExpert() {
     const currentNode = decisionTree;

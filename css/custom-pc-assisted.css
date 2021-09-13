@@ -19,7 +19,6 @@ body {
 
 
 .input-container {
-    
     background-color: rgba(78, 77, 77, 0.486);
     border-radius: 4px;
     padding: 40px;
@@ -75,5 +74,13 @@ body {
   cursor: pointer
 }
 
+.refresh-button-container {
+  display: none;
+  width: 100%;
+}
 
-
+.refresh-button-container ul {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
