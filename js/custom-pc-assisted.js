@@ -1,43 +1,131 @@
 /* decision tree */
-
-const conclusionNode = {
+const conclusionNodeServer = {
     type: "conclusion",
     conclusion: {
-        cpu: "ryzen 3690",
-        gpu: "nvidia rona 1560",
-        ram: "co 156GB 800Mhz",
-        mobo: "board 7zx",
-        psu: "760W gig"
+        cpu: "AMD EPYC 7702",
+        gpu: "NVIDIA RTX A4000",
+        ram: "128GB 3000MHz",
+        mobo: "MZ71",
+        psu: "800W Gold+"
     }
 }
 
-const subDecisionTree1 = {
+const conclusionNodeModelRendering = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD Threadripper 3960X",
+        gpu: "NVIDIA RTX 3080",
+        ram: "64GB",
+        mobo: "GIGABYTE TRX40 AORUS XTREME",
+        psu: "1200W Gold+"
+    }
+}
+
+
+const conclusionNodeCryptoMining = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD Ryzen 5 1600",
+        gpu: "2x NVIDIA GTX 1660 Ti",
+        ram: "16GB 3200MHz",
+        mobo: "GIGABYTE B450 Aorus Elite v2",
+        psu: "600W Gold+"
+    }
+}
+
+const conclusionNodeGaming = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD RYZEN 7 3700X",
+        gpu: "NVIDIA RTX 3080",
+        ram: "32GB 3200MHz",
+        mobo: "ASRock B550M STEEL LEGEND",
+        psu: "800W Gold+"
+    }
+}
+const conclusionNodeContentCreation = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD Ryzen 7 5700G w/ Vega Graphics",
+        gpu: "Built in CPU",
+        ram: "16GB 3200MHz",
+        mobo: "MSI B550 Gaming Edge WiFi",
+        psu: "550W Gold+"
+    }
+}
+const conclusionNodeCasualWork = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "RYZEN 5 3600",
+        gpu: "NVIDIA GTX 1660 TI",
+        ram: "16GB 3200Mhz",
+        mobo: "ASRock B550M STEEL LEGEND",
+        psu: "600W Gold+"
+    }
+}
+const conclusionNodeCADSoftware = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "11th Gen Intel® Core™ i9-11900K  ",
+        gpu: "NVIDIA RTX 3070",
+        ram: "64GB 3000MHz",
+        mobo: "Gigabyte Z590 AORUS ELITE AX",
+        psu: "800W Gold+"
+    }
+}
+const conclusionNodeAdministration = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "Intel I3-9100F",
+        gpu: "ASUS GT710-SL-1GD5",
+        ram: "8GB 2666MHz",
+        mobo: "ASUS PRIME H310M-R 2.0",
+        psu: "500W Bronze+"
+    }
+}
+const conclusionNodeProgramming = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD Ryzen 5 3600",
+        gpu: "NVIDIA GTX 1660",
+        ram: "16GB 3200MHz",
+        mobo: "B450 Tomahawk Max",
+        psu: "550W Gold+"
+    }
+}
+
+const subDecisionTreeHomePC = {
     type: "question",
-    question: "Example question 3",
+    question: "What will the PC be used for?",
     answers: [
-        {buttonLabel: "option 1", node: conclusionNode},
-        {buttonLabel: "option 2", node: conclusionNode},
+        {buttonLabel: "Crypto Mining", node: conclusionNodeCryptoMining},
+        {buttonLabel: "Gaming", node: conclusionNodeGaming},
+        {buttonLabel: "Content Creation", node: conclusionNodeContentCreation},
+        {buttonLabel: "Casual Work", node: conclusionNodeCasualWork}
     ]
 }
 
-const subDecisionTree = {
+
+const subDecisionTreeBusinessPC = {
     type: "question",
-    question: "Example question 2",
+    question: "What kind of work do you do?",
     answers: [
-        {buttonLabel: "option 1", node: conclusionNode},
-        {buttonLabel: "option 2", node: subDecisionTree1},
+        {buttonLabel: "CAD Software", node: conclusionNodeCADSoftware},
+        {buttonLabel: "Administration", node: conclusionNodeAdministration},
+        {buttonLabel: "Programming", node: conclusionNodeProgramming},
     ]
 }
+
 
 function buildDecisionTree() {
     return {
         type: "question",
-        question: "Example question 1",
+        question: "What will the PC be used as",
         answers: [
-            {buttonLabel: "option 1", node: subDecisionTree},
-            {buttonLabel: "option 2", node: {type: "conclusion", conclusion: conclusionNode}},
-            {buttonLabel: "option 3", node: {type: "conclusion", conclusion: conclusionNode}},
-            {buttonLabel: "option 4", node: {type: "conclusion", conclusion: conclusionNode}}
+            {buttonLabel: "3D Model & Rendering", node: conclusionNodeModelRendering},
+            {buttonLabel: "Home PC", node: subDecisionTreeHomePC},
+            {buttonLabel: "Business PC", node: subDecisionTreeBusinessPC},
+            {buttonLabel: "Server", node: conclusionNodeServer}
         ]
     }
 }
