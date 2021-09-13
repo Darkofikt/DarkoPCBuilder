@@ -139,9 +139,29 @@ function removeInnerHtml(element){
     }
 }
 
+function createRow(label,value)
+{
+    const div = document.createElement("div");
+    const reportLabel = document.createElement("span");
+    const reportValue = document.createElement("span");
+    reportLabel.innerText = label;
+    reportValue.innerText = value;
+    reportLabel.className = "component-label";
+    reportValue.className = "component-value";
+    div.appendChild(reportLabel);
+    div.appendChild(reportValue);
+
+    return div;
+}
+
 function displayConclusion(conclusion) {
     console.log(conclusion);
-    conclusionContainer.innerText = JSON.stringify(conclusion);
+    reportContainer.appendChild(createRow("CPU: " , conclusion["cpu"]))
+    reportContainer.appendChild(createRow("GPU: " , conclusion["gpu"]))
+    reportContainer.appendChild(createRow("RAM: " , conclusion["ram"]))
+    reportContainer.appendChild(createRow("MOBO: " , conclusion["mobo"]))
+    reportContainer.appendChild(createRow("PSU: " , conclusion["psu"]))
+    // conclusionContainer.innerText = JSON.stringify(conclusion);
 }
 
 function runExpert(currentNode) {
@@ -182,6 +202,7 @@ const decisionTree = buildDecisionTree();
 const questionContainer = document.querySelector(".question");
 const conclusionContainer = document.querySelector(".conclusion");
 const refreshButton = document.querySelector(".refresh-button-container");
+const reportContainer = document.querySelector(".report-container");
 
 function startExpert() {
     const currentNode = decisionTree;
