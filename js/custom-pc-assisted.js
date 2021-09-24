@@ -1,4 +1,576 @@
 /* decision tree */
+const conclusionNodeModelRenderingNopreference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "NO PREFERENCE",
+        gpu: "",
+        ram: "NO PREFERENCE",
+        mobo: "",
+        psu: ""
+    }
+}
+
+const conclusionNodeModelRenderingAMDAMD32GB2666preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD",
+        gpu: "AMD",
+        ram: "32GB 2666MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingAMDAMD32GB3000preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD",
+        gpu: "AMD",
+        ram: "32GB 3000MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingAMDAMD32GB3200preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD",
+        gpu: "AMD",
+        ram: "32GB 3200MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingAMDAMD64GB2666preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD",
+        gpu: "AMD",
+        ram: "64GB 2666MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingAMDAMD64GB3000preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD",
+        gpu: "AMD",
+        ram: "64GB 3000MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingAMDAMD64GB3200preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD",
+        gpu: "AMD",
+        ram: "64GB 3200MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+
+const conclusionNodeModelRenderingAMDAMD128GB2666preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD",
+        gpu: "AMD",
+        ram: "128GB 2666MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingAMDAMD128GB3000preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD",
+        gpu: "AMD",
+        ram: "128GB 3000MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingAMDAMD128GB3200preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD",
+        gpu: "AMD",
+        ram: "128GB 3200MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingAMDINTEL32GB2666preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "INTEL",
+        gpu: "AMD",
+        ram: "32GB 2666MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingAMDINTEL32GB3000preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "INTEL",
+        gpu: "AMD",
+        ram: "32GB 3000MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingAMDINTEL32GB3200preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "INTEL",
+        gpu: "AMD",
+        ram: "32GB 3200MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingAMDINTEL64GB2666preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "INTEL",
+        gpu: "AMD",
+        ram: "64GB 2666MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingAMDINTEL64GB3000preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "INTEL",
+        gpu: "AMD",
+        ram: "64GB 3000MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingAMDINTEL64GB3200preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "INTEL",
+        gpu: "AMD",
+        ram: "64GB 3200MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingAMDINTEL128GB2666preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "INTEL",
+        gpu: "AMD",
+        ram: "128GB 2666MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+
+const conclusionNodeModelRenderingAMDINTEL128GB3000preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "INTEL",
+        gpu: "AMD",
+        ram: "128GB 3000MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+
+const conclusionNodeModelRenderingAMDINTEL128GB3200preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "INTEL",
+        gpu: "AMD",
+        ram: "128GB 3200MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+// ----------------------------------------------------------------------------------------------------------------------------
+const conclusionNodeModelRenderingNVIDIAINTEL32GB2666preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "INTEL",
+        gpu: "NVIDIA",
+        ram: "32GB 2666MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingNVIDIAINTEL32GB3000preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "INTEL",
+        gpu: "NVIDIA",
+        ram: "32GB 3000MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingNVIDIAINTEL32GB3200preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "INTEL",
+        gpu: "NVIDIA",
+        ram: "32GB 3200MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingNVIDIAINTEL64GB2666preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "INTEL",
+        gpu: "NVIDIA",
+        ram: "64GB 2666MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingNVIDIAINTEL64GB3000preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "INTEL",
+        gpu: "NVIDIA",
+        ram: "64GB 3000MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingNVIDIAINTEL64GB3200preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "INTEL",
+        gpu: "NVIDIA",
+        ram: "64GB 3200MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+
+const conclusionNodeModelRenderingNVIDIAINTEL128GB2666preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "INTEL",
+        gpu: "NVIDIA",
+        ram: "128GB 2666MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingNVIDIAINTEL128GB3000preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "INTEL",
+        gpu: "NVIDIA",
+        ram: "128GB 3000MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingNVIDIAINTEL128GB3200preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "INTEL",
+        gpu: "NVIDIA",
+        ram: "128GB 3200MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingNVIDIAAMD32GB2666preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD",
+        gpu: "NVIDIA",
+        ram: "32GB 2666MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingNVIDIAAMD32GB3000preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD",
+        gpu: "NVIDIA",
+        ram: "32GB 3000MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingNVIDIAAMD32GB3200preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD",
+        gpu: "NVIDIA",
+        ram: "32GB 3200MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingNVIDIAAMD64GB2666preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD",
+        gpu: "NVIDIA",
+        ram: "64GB 2666MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingNVIDIAAMD64GB3000preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD",
+        gpu: "NVIDIA",
+        ram: "64GB 3000MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingNVIDIAAMD64GB3200preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD",
+        gpu: "NVIDIA",
+        ram: "64GB 3200MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const conclusionNodeModelRenderingNVIDIAAMD128GB2666preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD",
+        gpu: "NVIDIA",
+        ram: "128GB 2666MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+
+const conclusionNodeModelRenderingNVIDIAAMD128GB3000preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD",
+        gpu: "NVIDIA",
+        ram: "128GB 3000MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+
+const conclusionNodeModelRenderingNVIDIAAMD128GB3200preference = {
+    type: "conclusion",
+    conclusion: {
+        cpu: "AMD",
+        gpu: "NVIDIA",
+        ram: "128GB 3200MHz",
+        mobo: "",
+        psu: ""
+    }
+}
+const subDecisionTreeModelRenderingNVIDIAINTEL32RAMSpeedpreference = {
+    type: "question" ,
+    question: "What ram speed do you want to use?",
+    answers: [
+        {buttonLabel: "2666MHz", node: conclusionNodeModelRenderingNVIDIAINTEL32GB2666preference},
+        {buttonLabel: "3000MHz", node: conclusionNodeModelRenderingNVIDIAINTEL32GB3000preference},
+        {buttonLabel: "3200MHz", node: conclusionNodeModelRenderingNVIDIAINTEL32GB3200preference}
+    ]
+}
+const subDecisionTreeModelRenderingNVIDIAINTEL64RAMSpeedpreference = {
+    type: "question" ,
+    question: "What ram speed do you want to use?",
+    answers: [
+        {buttonLabel: "2666MHz", node: conclusionNodeModelRenderingNVIDIAINTEL64GB2666preference},
+        {buttonLabel: "3000MHz", node: conclusionNodeModelRenderingNVIDIAINTEL64GB3000preference},
+        {buttonLabel: "3200MHz", node: conclusionNodeModelRenderingNVIDIAINTEL64GB3200preference}
+    ]
+}
+const subDecisionTreeModelRenderingNVIDIAINTEL128RAMSpeedpreference = {
+    type: "question" ,
+    question: "What ram speed do you want to use?",
+    answers: [
+        {buttonLabel: "2666MHz", node: conclusionNodeModelRenderingNVIDIAINTEL128GB2666preference},
+        {buttonLabel: "3000MHz", node: conclusionNodeModelRenderingNVIDIAINTEL128GB3000preference},
+        {buttonLabel: "3200MHz", node: conclusionNodeModelRenderingNVIDIAINTEL128GB3200preference}
+    ]
+}
+
+const subDecisionTreeModelRenderingNVIDIAAMD32RAMSpeedpreference = {
+    type: "question" ,
+    question: "What ram speed do you want to use?",
+    answers: [
+        {buttonLabel: "2666MHz", node: conclusionNodeModelRenderingNVIDIAAMD32GB2666preference},
+        {buttonLabel: "3000MHz", node: conclusionNodeModelRenderingNVIDIAAMD32GB3000preference},
+        {buttonLabel: "3200MHz", node: conclusionNodeModelRenderingNVIDIAAMD32GB3200preference}
+    ]
+}
+const subDecisionTreeModelRenderingNVIDIAAMD64RAMSpeedpreference = {
+    type: "question" ,
+    question: "What ram speed do you want to use?",
+    answers: [
+        {buttonLabel: "2666MHz", node: conclusionNodeModelRenderingNVIDIAAMD64GB2666preference},
+        {buttonLabel: "3000MHz", node: conclusionNodeModelRenderingNVIDIAAMD64GB3000preference},
+        {buttonLabel: "3200MHz", node: conclusionNodeModelRenderingNVIDIAAMD64GB3200preference}
+    ]
+}
+const subDecisionTreeModelRenderingNVIDIAAMD128RAMSpeedpreference = {
+    type: "question" ,
+    question: "What ram speed do you want to use?",
+    answers: [
+        {buttonLabel: "2666MHz", node: conclusionNodeModelRenderingNVIDIAAMD128GB2666preference},
+        {buttonLabel: "3000MHz", node: conclusionNodeModelRenderingNVIDIAAMD128GB3000preference},
+        {buttonLabel: "3200MHz", node: conclusionNodeModelRenderingNVIDIAAMD128GB3200preference}
+    ]
+}
+
+
+
+const subDecisionTreeModelRenderingNVIDIAINTELRAMSizepreference = {
+    type: "question" ,
+    question : "What ram size do you want to use?",
+    answers: [
+        {buttonLabel: "32GB", node: subDecisionTreeModelRenderingNVIDIAINTEL32RAMSpeedpreference},
+        {buttonLabel: "64GB", node: subDecisionTreeModelRenderingNVIDIAINTEL64RAMSpeedpreference},
+        {buttonLabel: "128GB", node: subDecisionTreeModelRenderingNVIDIAINTEL128RAMSpeedpreference},
+    ]
+}
+const subDecisionTreeModelRenderingNVIDIAAMDRAMSizepreference = {
+    type: "question" ,
+    question : "What ram size do you want to use?",
+    answers: [
+        {buttonLabel: "32GB", node: subDecisionTreeModelRenderingNVIDIAAMD32RAMSpeedpreference},
+        {buttonLabel: "64GB", node: subDecisionTreeModelRenderingNVIDIAAMD64RAMSpeedpreference},
+        {buttonLabel: "128GB", node: subDecisionTreeModelRenderingNVIDIAAMD128RAMSpeedpreference},
+    ]
+}
+
+const subDecisionTreeModelRenderingNVIDIAGPUpreference = {
+    type: "question" ,
+    question: "Which CPU brand do you prefer?" ,
+    answers: [
+        {buttonLabel: "INTEL", node: subDecisionTreeModelRenderingNVIDIAINTELRAMSizepreference},
+        {buttonLabel: "AMD", node: subDecisionTreeModelRenderingNVIDIAAMDRAMSizepreference},
+    ]
+}
+//-----------------------------------------------------------------------------------------------------------------------------------------
+const subDecisionTreeModelRenderingAMDINTEL32RAMSpeedpreference = {
+    type: "question" ,
+    question: "What ram speed do you want to use?",
+    answers: [
+        {buttonLabel: "2666MHz", node: conclusionNodeModelRenderingAMDINTEL32GB2666preference},
+        {buttonLabel: "3000MHz", node: conclusionNodeModelRenderingAMDINTEL32GB3000preference},
+        {buttonLabel: "3200MHz", node: conclusionNodeModelRenderingAMDINTEL32GB3200preference}
+    ]
+}
+const subDecisionTreeModelRenderingAMDINTEL64RAMSpeedpreference = {
+    type: "question" ,
+    question: "What ram speed do you want to use?",
+    answers: [
+        {buttonLabel: "2666MHz", node: conclusionNodeModelRenderingAMDINTEL64GB2666preference},
+        {buttonLabel: "3000MHz", node: conclusionNodeModelRenderingAMDINTEL64GB3000preference},
+        {buttonLabel: "3200MHz", node: conclusionNodeModelRenderingAMDINTEL64GB3200preference}
+    ]
+}
+const subDecisionTreeModelRenderingAMDINTEL128RAMSpeedpreference = {
+    type: "question" ,
+    question: "What ram speed do you want to use?",
+    answers: [
+        {buttonLabel: "2666MHz", node: conclusionNodeModelRenderingAMDINTEL128GB2666preference},
+        {buttonLabel: "3000MHz", node: conclusionNodeModelRenderingAMDINTEL128GB3000preference},
+        {buttonLabel: "3200MHz", node: conclusionNodeModelRenderingAMDINTEL128GB3200preference}
+    ]
+}
+
+const subDecisionTreeModelRenderingAMDAMD32RAMSpeedpreference = {
+    type: "question" ,
+    question: "What ram speed do you want to use?",
+    answers: [
+        {buttonLabel: "2666MHz", node: conclusionNodeModelRenderingAMDAMD32GB2666preference},
+        {buttonLabel: "3000MHz", node: conclusionNodeModelRenderingAMDAMD32GB3000preference},
+        {buttonLabel: "3200MHz", node: conclusionNodeModelRenderingAMDAMD32GB3200preference}
+    ]
+}
+const subDecisionTreeModelRenderingAMDAMD64RAMSpeedpreference = {
+    type: "question" ,
+    question: "What ram speed do you want to use?",
+    answers: [
+        {buttonLabel: "2666MHz", node: conclusionNodeModelRenderingAMDAMD64GB2666preference},
+        {buttonLabel: "3000MHz", node: conclusionNodeModelRenderingAMDAMD64GB3000preference},
+        {buttonLabel: "3200MHz", node: conclusionNodeModelRenderingAMDAMD64GB3200preference}
+    ]
+}
+const subDecisionTreeModelRenderingAMDAMD128RAMSpeedpreference = {
+    type: "question" ,
+    question: "What ram speed do you want to use?",
+    answers: [
+        {buttonLabel: "2666MHz", node: conclusionNodeModelRenderingAMDAMD128GB2666preference},
+        {buttonLabel: "3000MHz", node: conclusionNodeModelRenderingAMDAMD128GB3000preference},
+        {buttonLabel: "3200MHz", node: conclusionNodeModelRenderingAMDAMD128GB3200preference}
+    ]
+}
+
+
+
+const subDecisionTreeModelRenderingAMDINTELRAMSizepreference = {
+    type: "question" ,
+    question : "What ram size do you want to use?",
+    answers: [
+        {buttonLabel: "32GB", node: subDecisionTreeModelRenderingAMDINTEL32RAMSpeedpreference},
+        {buttonLabel: "64GB", node: subDecisionTreeModelRenderingAMDINTEL64RAMSpeedpreference},
+        {buttonLabel: "128GB", node: subDecisionTreeModelRenderingAMDINTEL128RAMSpeedpreference},
+    ]
+}
+const subDecisionTreeModelRenderingAMDAMDRAMSizepreference = {
+    type: "question" ,
+    question : "What ram size do you want to use?",
+    answers: [
+        {buttonLabel: "32GB", node: subDecisionTreeModelRenderingAMDAMD32RAMSpeedpreference},
+        {buttonLabel: "64GB", node: subDecisionTreeModelRenderingAMDAMD64RAMSpeedpreference},
+        {buttonLabel: "128GB", node: subDecisionTreeModelRenderingAMDAMD128RAMSpeedpreference},
+    ]
+}
+
+const subDecisionTreeModelRenderingAMDGPUpreference = {
+    type: "question" ,
+    question: "Which CPU brand do you prefer?" ,
+    answers: [
+        {buttonLabel: "INTEL", node: subDecisionTreeModelRenderingAMDINTELRAMSizepreference},
+        {buttonLabel: "AMD", node: subDecisionTreeModelRenderingAMDAMDRAMSizepreference},
+    ]
+}
+
+
+
+const subDecisionTreeModelRenderingGPUpreference = {
+    type: "question",
+    question: "Which GPU brand do you prefer?" ,
+    answers: [
+        {buttonLabel: "NVIDIA", node: subDecisionTreeModelRenderingNVIDIAGPUpreference},
+        {buttonLabel: "AMD", node: subDecisionTreeModelRenderingAMDGPUpreference}
+    ]
+}
+
+
+const subDecisionTreeModelRendering = {
+    type: "question",
+    question: "Do you have any hardware preferences?",
+    answers: [
+        {buttonLabel: "No", node: conclusionNodeModelRenderingNopreference},
+        {buttonLabel: "Yes", node: subDecisionTreeModelRenderingGPUpreference}
+    ]
+}
+
+
 const conclusionNodeServer = {
     type: "conclusion",
     conclusion: {
@@ -7,17 +579,6 @@ const conclusionNodeServer = {
         ram: "128GB 3000MHz",
         mobo: "MZ71",
         psu: "800W Gold+"
-    }
-}
-
-const conclusionNodeModelRendering = {
-    type: "conclusion",
-    conclusion: {
-        cpu: "AMD Threadripper 3960X",
-        gpu: "NVIDIA RTX 3080",
-        ram: "64GB",
-        mobo: "GIGABYTE TRX40 AORUS XTREME",
-        psu: "1200W Gold+"
     }
 }
 
@@ -96,7 +657,7 @@ const conclusionNodeProgramming = {
 
 const subDecisionTreeHomePC = {
     type: "question",
-    question: "What will the PC be used for?",
+    question: "What is the function of the PC?",
     answers: [
         {buttonLabel: "Crypto Mining", node: conclusionNodeCryptoMining},
         {buttonLabel: "Gaming", node: conclusionNodeGaming},
@@ -122,15 +683,13 @@ function buildDecisionTree() {
         type: "question",
         question: "What will the PC be used as",
         answers: [
-            {buttonLabel: "3D Model & Rendering", node: conclusionNodeModelRendering},
+            {buttonLabel: "3D Model & Rendering", node: subDecisionTreeModelRendering},
             {buttonLabel: "Home PC", node: subDecisionTreeHomePC},
             {buttonLabel: "Business PC", node: subDecisionTreeBusinessPC},
             {buttonLabel: "Server", node: conclusionNodeServer}
         ]
     }
 }
-
-/* logic */
 
 // utility functions
 function removeInnerHtml(element){
@@ -139,8 +698,7 @@ function removeInnerHtml(element){
     }
 }
 
-function createRow(label,value)
-{
+function createRow(label,value){
     const div = document.createElement("div");
     const reportLabel = document.createElement("span");
     const reportValue = document.createElement("span");
@@ -150,7 +708,6 @@ function createRow(label,value)
     reportValue.className = "component-value";
     div.appendChild(reportLabel);
     div.appendChild(reportValue);
-
     return div;
 }
 
