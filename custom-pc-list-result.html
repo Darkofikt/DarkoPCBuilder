@@ -11,17 +11,25 @@
     <div class="container">
         <div class="main-menu main-menu-pgactive" id="main-menu">
             <ul class="main-menu-list">
-                <li><a class="gpu-products">GPU</a></li>
-                <li><a class="mobo-products">Motherboard</a></li>
-                <li><a class="cpu-products">CPU</a></li>
-                <li><a class="ram-products">RAM</a></li>
-                <li><a class="psu-products">PSU</a></li>
+                <li><a class="product-button" data-product="gpu">GPU</a></li>
+                <li><a class="product-button" data-product="motherboard">Motherboard</a></li>
+                <li><a class="product-button" data-product="cpu">CPU</a></li>
+                <li><a class="product-button" data-product="ram">RAM</a></li>
+                <li><a class="product-button" data-product="psu">PSU</a></li>
             </ul>
         </div>
-        <div class="products-card"></div>
+        <div class="products-card">
+            <div class="product-card" data-product="gpu">gpus</div>
+            <div class="product-card" data-product="motherboard">motherboards</div>
+            <div class="product-card" data-product="cpu">cpus</div>
+            <div class="product-card" data-product="ram">rams</div>
+            <div class="product-card" data-product="psu">psus</div>
+        </div>
     </div>
     <div class="selected-products"></div>
 
+    <script src="js/pc-parts-dataset.js"></script>
+    <script src="js/custom-pc-result.js"></script>
 </body>
 
 </html>
