@@ -25,6 +25,14 @@ body {
   margin: 0 auto 100px;
 }
 
+.custom-pc-build {
+  display: none;
+}
+
+.budget-pc-build {
+  display: none;
+}
+
 .question-label {
   margin-bottom: 10px;
 }
@@ -64,6 +72,7 @@ ul li {
 
 ul li:hover {
   opacity: 0.9;
+  cursor: pointer;
 }
 
 ul li a {
