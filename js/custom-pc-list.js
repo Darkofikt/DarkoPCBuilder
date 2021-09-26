@@ -32,17 +32,75 @@ function saveCustomPcBuildFormData() {
     let psuWattageInput = document.querySelector("select[name=psu-wattage-choice]");
 
     const filterObj = {
-        gpu: gpuInput ? gpuInput.value : undefined,
-        motherboard: motherboardInput.value || undefined,
-        cpu: cpuInput.value || undefined,
-        ramSize: ramSizeInput.value || undefined,
-        ramSpeed: ramSpeedInput.value || undefined,
-        psuWattage: psuWattageInput.value || undefined
+        gpu: getGpu(gpuInput),
+        motherboard: getMotherboard(motherboardInput),
+        cpu: getCpu(cpuInput, motherboardInput),
+        ram: getRam(ramSizeInput, ramSpeedInput),
+        psu: getPsu(psuWattageInput)
     };
 
     console.log("Saving custom pc: ", filterObj);
     localStorage.setItem('customPcBuildFilter', JSON.stringify(filterObj));
     window.location.href = 'custom-pc-list-result.html';
+}
+
+function getGpu(gpuInput) {
+    if(!gpuInput) {
+        return {};
+    }
+
+    return {
+        brand: gpuInput.value
+    }
+}
+
+function getMotherboard(motherboardInput) {
+    if(!motherboardInput.value) {
+        return {};
+    }
+
+    return {
+        socket: motherboardInput.value
+    }
+}
+
+function getCpu(cpuInput, motherboardInput) {
+    const result = {};
+
+    if(motherboardInput.value) {
+        result["socket"] = motherboardInput.value;
+    }
+
+    if(cpuInput.value) {
+        result["cores"] = cpuInput.value.split("-")[0],
+        result["threads"] = cpuInput.value.split("-")[1]
+    }
+
+    return result;
+}
+
+function getRam(ramSizeInput, ramSpeedInput) {
+    const result = {};
+
+    if(ramSizeInput.value) {
+        result["size"] = ramSizeInput.value;
+    }
+
+    if(ramSpeedInput.value) {
+        result["speed"] = ramSpeedInput.value;
+    }
+
+    return result;
+}
+
+function getPsu(psuInput) {
+    if(!psuInput.value) {
+        return {};
+    }
+
+    return {
+        wattage: psuInput.value
+    }
 }
 
 function saveBudgetPcBuildFormData() {
