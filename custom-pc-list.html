@@ -15,6 +15,7 @@
         <div class="button-container">
             <ul>
                 <li class="back-button"><a href="index.html">BACK</a></li>
+                <li><a>Custom PC Build</a></li>
                 <li><a>Budget PC Build</a></li>
                 <li><a>Performance PC Build</a></li>
             </ul>
@@ -46,12 +47,20 @@
                 <div class="question-container">
                     <div class="question-label">Select the number of cores</div>
                     <select name="cpu-cores-choice">
-                        <!-- Add more LABELS for cpu options(optgroups) -->
-                        <optgroup label="Office CPU">
+                        <optgroup label="Office">
                             <option selected disabled hidden></option>
-                            <option value="first">First Value</option>
-                            <option value="second">Second Value</option>
-                            <option value="third">Third Value</option>
+                            <option value="2-4">2 Cores 4 Threads</option>
+                            <option value="4-4">4 Cores 4 Threads</option>
+                        </optgroup>
+                        <optgroup label="Casual">
+                            <option selected disabled hidden></option>
+                            <option value="4-8">4 Cores 8 Threads</option>
+                            <option value="6-6">6 Cores 6 Threads</option>
+                        </optgroup>
+                        <optgroup label="Gaming">
+                            <option selected disabled hidden></option>
+                            <option value="6-12">6 Cores 12 Threads</option>
+                            <option value="8-16">8 Cores 16 Threads</option>
                         </optgroup>
                     </select>
                 </div>
@@ -59,20 +68,19 @@
             <div class="questions-ram">
                 <h1>RAM</h1>
                 <div class="question-container">
-                    <div class="question-label">Select the MHz and size</div>
-                    <select name="ram-mhz-choice">
-                        <option selected disabled hidden></option>
-                        <option value="3600">3600</option>
-                        <option value="3200">3200</option>
-                        <option value="3000">3000</option>
-                    </select>
-                    <select name="ram-size-choice">
-                        <option selected disabled hidden></option>
-                        <option value="4GB">4GB</option>
-                        <option value="8GB">8GB</option>
-                        <option value="12GB">12GB</option>
-                    </select>
-                    <div class="recommended-option">Recommended: <span id="recommended-ram"></span></div>
+                    <div class="question-label">Select the RAM Size and RAM Speed</div>
+                        <select name="ram-size-choice">
+                            <option selected disabled hidden></option>
+                                <option value="8GB">8GB</option>
+                                <option value="16GB">16GB</option>
+                                <option value="32GB">32GB</option>
+                        </select>
+                        <select name="ram-speed-choice">
+                            <option selected disabled hidden></option>
+                                <option value="3000">3000 MHz</option>
+                                <option value="3200">3200 MHz</option>
+                                <option value="3600">3600 MHz</option>
+                        </select>
                 </div>
             </div>
             <div class="questions-psu">
@@ -81,12 +89,11 @@
                     <div class="question-label">Select the PSU wattage</div>
                     <select name="psu-wattage-choice">
                         <option selected disabled hidden></option>
-                        <option value="500">500</option>
-                        <option value="600">600</option>
-                        <option value="750">750</option>
-                        <option value="1000">1000</option>
+                        <option value="500">500W</option>
+                        <option value="600">600W</option>
+                        <option value="750">750W</option>
+                        <option value="1000">1000W</option>
                     </select>
-                    <div class="recommended-option">Recommended: <span id="recommended-wattage"></span></div>
                 </div>
             </div>
             <div>

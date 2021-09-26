@@ -52,7 +52,7 @@ body {
 ul {
   display: flex;
   width: 640px;
-  justify-content: center;
+  justify-content: right;
   list-style: none;
   text-align: center;
 }
@@ -73,7 +73,7 @@ ul li a {
   text-transform: uppercase;
   font-weight: bold;
   display: inline-block;
-  padding: 6px 14px;
+  padding: 6px 7px;
   border-radius: 3px;
   box-shadow: 1px 1px	 1px rgba(0, 0, 0, 0.1);
 }
@@ -84,7 +84,7 @@ ul li a {
 
 .back-button {
   position: relative;
-  left: -120px;
+  left: -60px;
 }
 
 .button-container {
