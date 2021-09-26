@@ -577,378 +577,377 @@ const subDecisionTreeModelRendering = {
 const conclusionNodeServerNopreference = {
     type: "conclusion",
     conclusion: {
-        cpu: "NO PREFERENCE",
-        gpu: "",
-        ram: "NO PREFERENCE",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "Intel Xeon E-2386G",
+        gpu: "Integrated in CPU",
+        ram: "128GB 3000 MHz",
+        mobo: "ASUS PRIME Z590-ASERVER",
+        psu: "600W 80+ Bronze"
     }
 }
 
 const conclusionNodeServerAMDAMD32GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "AMD Ryzen 5 3600",
+        gpu: "Radeon R5 230 2GB",
         ram: "32GB 2666MHz",
-        mobo: "SERVER",
-        psu: ""
+        mobo: "MSI MAG B550 Motherboard",
+        psu: "400W 80+ Bronze"
     }
 }
 const conclusionNodeServerAMDAMD32GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "AMD Ryzen 5 3600",
+        gpu: "Radeon R5 230 2GB",
         ram: "32GB 3000MHz",
-        mobo: "SERVER",
-        psu: ""
+        mobo: "MSI MAG B550 Motherboard",
+        psu: "400W 80+ Bronze"
     }
 }
 const conclusionNodeServerAMDAMD32GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "AMD Ryzen 5 3600",
+        gpu: "Radeon R5 230 2GB",
         ram: "32GB 3200MHz",
-        mobo: "SERVER",
-        psu: ""
+        mobo: "MSI MAG B550 Motherboard",
+        psu: "400W 80+ Bronze"
     }
 }
 const conclusionNodeServerAMDAMD64GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
-        ram: "64GB 2666MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "Ryzen 7 3700x",
+        gpu: "Radeon R5 230 2GB",
+        ram: "64GB 2666 MHz",
+        mobo: "MSI MAG B550 Motherboard",
+        psu: "500W 80+ Bronze"
     }
 }
 const conclusionNodeServerAMDAMD64GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
-        ram: "64GB 3000MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "Ryzen 7 3700x",
+        gpu: "Radeon R5 230 2GB",
+        ram: "64GB 3000 MHz",
+        mobo: "MSI MAG B550 Motherboard",
+        psu: "500W 80+ Bronze"
     }
 }
 const conclusionNodeServerAMDAMD64GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
-        ram: "64GB 3200MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "Ryzen 7 3700x",
+        gpu: "Radeon R5 230 2GB",
+        ram: "64GB 3200 MHz",
+        mobo: "MSI MAG B550 Motherboard",
+        psu: "500W 80+ Bronze"
     }
 }
 
 const conclusionNodeServerAMDAMD128GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
-        ram: "128GB 2666MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "AMD EPYC 7302P",
+        gpu: "Radeon R5 230 2GB",
+        ram: "128GB 2666 MHz",
+        mobo: "H11SSL-i",
+        psu: "600W 80+ Bronze"
     }
 }
 const conclusionNodeServerAMDAMD128GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
-        ram: "128GB 3000MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "AMD EPYC 7302P",
+        gpu: "Radeon R5 230 2GB",
+        ram: "128GB 3000 MHz",
+        mobo: "H11SSL-i",
+        psu: "600W 80+ Bronze"
     }
 }
 const conclusionNodeServerAMDAMD128GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
-        ram: "128GB 3200MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "AMD EPYC 7302P",
+        gpu: "Radeon R5 230 2GB",
+        ram: "128GB 3200 MHz",
+        mobo: "H11SSL-i",
+        psu: "600W 80+ Bronze"
     }
 }
 const conclusionNodeServerAMDINTEL32GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel i7 6700K",
+        gpu: "Radeon R5 230 2GB",
         ram: "32GB 2666MHz",
-        mobo: "SERVER",
-        psu: ""
+        mobo: "MPG Z390I GAMING EDGE AC",
+        psu: "400W 80+ Bronze"
     }
 }
 const conclusionNodeServerAMDINTEL32GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel i7 6700K",
+        gpu: "Radeon R5 230 2GB",
         ram: "32GB 3000MHz",
-        mobo: "SERVER",
-        psu: ""
+        mobo: "MPG Z390I GAMING EDGE AC",
+        psu: "400W 80+ Bronze"
     }
 }
 const conclusionNodeServerAMDINTEL32GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel i7 6700K",
+        gpu: "Radeon R5 230 2GB",
         ram: "32GB 3200MHz",
-        mobo: "SERVER",
-        psu: ""
+        mobo: "MPG Z390I GAMING EDGE AC",
+        psu: "400W 80+ Bronze"
     }
 }
 const conclusionNodeServerAMDINTEL64GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
-        ram: "64GB 2666MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "Intel i9900K",
+        gpu: "Radeon R5 230 2GB",
+        ram: "64GB 2666 MHz",
+        mobo: "Z390 AORUS ULTRA",
+        psu: "550W 80+ Bronze"
     }
 }
 const conclusionNodeServerAMDINTEL64GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
-        ram: "64GB 3000MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "Intel i9900K",
+        gpu: "Radeon R5 230 2GB",
+        ram: "64GB 3000 MHz",
+        mobo: "Z390 AORUS ULTRA",
+        psu: "550W 80+ Bronze"
     }
 }
 const conclusionNodeServerAMDINTEL64GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
-        ram: "64GB 3200MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "Intel i9900K",
+        gpu: "Radeon R5 230 2GB",
+        ram: "64GB 3200 MHz",
+        mobo: "Z390 AORUS ULTRA",
+        psu: "550W 80+ Bronze"
     }
 }
 const conclusionNodeServerAMDINTEL128GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
-        ram: "128GB 2666MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "Intel Xeon E-2136",
+        gpu: "Radeon R5 230 2GB",
+        ram: "128GB 2666 MHz",
+        mobo: "Gigabyte C246-WU4",
+        psu: "600W 80+ Bronze"
     }
 }
-
 const conclusionNodeServerAMDINTEL128GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
-        ram: "128GB 3000MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "Intel Xeon E-2136",
+        gpu: "Radeon R5 230 2GB",
+        ram: "128GB 3000 MHz",
+        mobo: "Gigabyte C246-WU4",
+        psu: "600W 80+ Bronze"
     }
 }
 
 const conclusionNodeServerAMDINTEL128GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
-        ram: "128GB 3200MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "Intel Xeon E-2136",
+        gpu: "Radeon R5 230 2GB",
+        ram: "128GB 3200 MHz",
+        mobo: "Gigabyte C246-WU4",
+        psu: "600W 80+ Bronze"
     }
 }
 const conclusionNodeServerNVIDIAINTEL32GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel i7 6700K",
+        gpu: "GT 710 1GB",
         ram: "32GB 2666MHz",
-        mobo: "SERVER",
-        psu: ""
+        mobo: "MPG Z390I GAMING EDGE AC",
+        psu: "400W 80+ Bronze"
     }
 }
 const conclusionNodeServerNVIDIAINTEL32GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel i7 6700K",
+        gpu: "GT 710 1GB",
         ram: "32GB 3000MHz",
-        mobo: "SERVER",
-        psu: ""
+        mobo: "MPG Z390I GAMING EDGE AC",
+        psu: "400W 80+ Bronze"
     }
 }
 const conclusionNodeServerNVIDIAINTEL32GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel i7 6700K",
+        gpu: "GT 710 1GB",
         ram: "32GB 3200MHz",
-        mobo: "SERVER",
-        psu: ""
+        mobo: "MPG Z390I GAMING EDGE AC",
+        psu: "400W 80+ Bronze"
     }
 }
 const conclusionNodeServerNVIDIAINTEL64GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
-        ram: "64GB 2666MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "Intel i9900K",
+        gpu: "GT 710 1GB",
+        ram: "64GB 2666 MHz",
+        mobo: "Z390 AORUS ULTRA",
+        psu: "550W 80+ Bronze"
     }
 }
 const conclusionNodeServerNVIDIAINTEL64GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
-        ram: "64GB 3000MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "Intel i9900K",
+        gpu: "GT 710 1GB",
+        ram: "64GB 3000 MHz",
+        mobo: "Z390 AORUS ULTRA",
+        psu: "550W 80+ Bronze"
     }
 }
 const conclusionNodeServerNVIDIAINTEL64GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
-        ram: "64GB 3200MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "Intel i9900K",
+        gpu: "GT 710 1GB",
+        ram: "64GB 3200 MHz",
+        mobo: "Z390 AORUS ULTRA",
+        psu: "550W 80+ Bronze"
     }
 }
 
 const conclusionNodeServerNVIDIAINTEL128GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
-        ram: "128GB 2666MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "Intel Xeon E-2136",
+        gpu: "GT 710 1GB",
+        ram: "128GB 2666 MHz",
+        mobo: "Gigabyte C246-WU4",
+        psu: "600W 80+ Bronze"
     }
 }
 const conclusionNodeServerNVIDIAINTEL128GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
-        ram: "128GB 3000MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "Intel Xeon E-2136",
+        gpu: "GT 710 1GB",
+        ram: "128GB 3000 MHz",
+        mobo: "Gigabyte C246-WU4",
+        psu: "600W 80+ Bronze"
     }
 }
 const conclusionNodeServerNVIDIAINTEL128GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
-        ram: "128GB 3200MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "Intel Xeon E-2136",
+        gpu: "GT 710 1GB",
+        ram: "128GB 3200 MHz",
+        mobo: "Gigabyte C246-WU4",
+        psu: "600W 80+ Bronze"
     }
 }
 const conclusionNodeServerNVIDIAAMD32GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "Ryzen 5 3600",
+        gpu: "GT 710 1GB",
         ram: "32GB 2666MHz",
-        mobo: "SERVER",
-        psu: ""
+        mobo: "MSI MAG B550 Motherboard",
+        psu: "400W 80+ Bronze"
     }
 }
 const conclusionNodeServerNVIDIAAMD32GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "Ryzen 5 3600",
+        gpu: "GT 710 1GB",
         ram: "32GB 3000MHz",
-        mobo: "SERVER",
-        psu: ""
+        mobo: "MSI MAG B550 Motherboard",
+        psu: "400W 80+ Bronze"
     }
 }
 const conclusionNodeServerNVIDIAAMD32GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "Ryzen 5 3600",
+        gpu: "GT 710 1GB",
         ram: "32GB 3200MHz",
-        mobo: "SERVER",
-        psu: ""
+        mobo: "MSI MAG B550 Motherboard",
+        psu: "400W 80+ Bronze"
     }
 }
 const conclusionNodeServerNVIDIAAMD64GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
-        ram: "64GB 2666MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "Ryzen 7 3700X",
+        gpu: "GT 710 1GB",
+        ram: "64GB 2666 MHz",
+        mobo: "MSI MAG B550 Motherboard",
+        psu: "600W 80+ Bronze"
     }
 }
 const conclusionNodeServerNVIDIAAMD64GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
-        ram: "64GB 3000MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "Ryzen 7 3700X",
+        gpu: "GT 710 1GB",
+        ram: "64GB 3000 MHz",
+        mobo: "MSI MAG B550 Motherboard",
+        psu: "600W 80+ Bronze"
     }
 }
 const conclusionNodeServerNVIDIAAMD64GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
-        ram: "64GB 3200MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "Ryzen 7 3700X",
+        gpu: "GT 710 1GB",
+        ram: "64GB 3200 MHz",
+        mobo: "MSI MAG B550 Motherboard",
+        psu: "600W 80+ Bronze"
     }
 }
 const conclusionNodeServerNVIDIAAMD128GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
-        ram: "128GB 2666MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "AMD EPYC 7302P",
+        gpu: "GT 710 1GB",
+        ram: "128GB 2666 MHz",
+        mobo: "H11SSL-i",
+        psu: "600W 80+ Bronze"
     }
 }
 
 const conclusionNodeServerNVIDIAAMD128GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
-        ram: "128GB 3000MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "AMD EPYC 7302P",
+        gpu: "GT 710 1GB",
+        ram: "128GB 3000 MHz",
+        mobo: "H11SSL-i",
+        psu: "600W 80+ Bronze"
     }
 }
 
 const conclusionNodeServerNVIDIAAMD128GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
-        ram: "128GB 3200MHz",
-        mobo: "SERVER",
-        psu: ""
+        cpu: "AMD EPYC 7302P",
+        gpu: "GT 710 1GB",
+        ram: "128GB 3200 MHz",
+        mobo: "H11SSL-i",
+        psu: "600W 80+ Bronze"
     }
 }
 const subDecisionTreeServerNVIDIAINTEL32RAMSpeedpreference = {
@@ -1150,79 +1149,73 @@ const subDecisionTreeServer = {
 const conclusionNodeCryptoMiningPCRange1 = {
     type: "conclusion",
     conclusion: {
-        cpu: "PC RANGE 1",
-        gpu: "",
-        ram: "",
-        mobo: "",
-        psu: ""
+        cpu: "Ryzen 5 1600",
+        gpu: "2x NVIDIA 1660Ti",
+        ram: "16GB 2666 MHz",
+        mobo: "GIGABYTE b450 Aorus Elite v2",
+        psu: "550W 80+ Gold",
+        price:"1300 Euro"
     }
 }
 const conclusionNodeCryptoMiningPCRange2 = {
     type: "conclusion",
     conclusion: {
-        cpu: "PC RANGE 2",
-        gpu: "",
-        ram: "",
-        mobo: "",
-        psu: ""
+        cpu: "Ryzen 5 1600",
+        gpu: "4x Radeon RX 580 ",
+        ram: "16GB 2666 MHz",
+        mobo: "Asus ROG Strix B550-F",
+        psu: "650W 80+ Gold",
+        price: "1900 Euro"
     }
 }
 const conclusionNodeCryptoMiningPCRange3 = {
     type: "conclusion",
     conclusion: {
-        cpu: "PC RANGE 3",
-        gpu: "",
-        ram: "",
-        mobo: "",
-        psu: ""
+        cpu: "Ryzen 5 1600",
+        gpu: "3x Nvidia RTX 3080",
+        ram: "16GB 2666 MHz",
+        mobo: "Asus B250 Mining Expert",
+        psu: "1000W 80+ Gold",
+        price: "3500 Euro"
     }
 }
 const conclusionNodeCryptoMiningASICRange1 = {
     type: "conclusion",
     conclusion: {
-        cpu: "ASIC RANGE 1",
-        gpu: "",
-        ram: "",
-        mobo: "",
-        psu: ""
+        miner: "ANTMINER D7",
+        price: "1,550 Euro"
     }
 }
 const conclusionNodeCryptoMiningASICRange2 = {
     type: "conclusion",
     conclusion: {
-        cpu: "ASIC RANGE 2",
-        gpu: "",
-        ram: "",
-        mobo: "",
-        psu: ""
+        miner: "ANTMINER Z15",
+        price: "3,400 Euro"
     }
 }
 const conclusionNodeCryptoMiningASICRange3 = {
     type: "conclusion",
     conclusion: {
-        cpu: "ASIC RANGE 3",
-        gpu: "",
-        ram: "",
-        mobo: "",
-        psu: ""
+        miner: "ANTMINER L7",
+        price: "4,850 Euro"
     }
 }
 const subDecisionTreePCMinerRange = {
     type: "question",
     question: "What is your price range?",
     answers: [
-        {buttonLabel: "PriceRange1", node:conclusionNodeCryptoMiningPCRange1},
-        {buttonLabel: "PriceRange2", node:conclusionNodeCryptoMiningPCRange2},
-        {buttonLabel: "PriceRange3", node:conclusionNodeCryptoMiningPCRange3}
+        {buttonLabel: "1000-1500 EURO", node:conclusionNodeCryptoMiningPCRange1},
+        {buttonLabel: "1500-3000 EURO", node:conclusionNodeCryptoMiningPCRange2},
+        {buttonLabel: "3000+ EURO", node:conclusionNodeCryptoMiningPCRange3}
     ]
 }
 const subDecisionTreeAsicMinerRange = {
     type: "question",
     question: "What is your price range?",
     answers: [
-        {buttonLabel: "PriceRange1", node:conclusionNodeCryptoMiningASICRange1},
-        {buttonLabel: "PriceRange2", node:conclusionNodeCryptoMiningASICRange2},
-        {buttonLabel: "PriceRange3", node:conclusionNodeCryptoMiningASICRange3}
+        {buttonLabel: "1300-1400 EURO", node:conclusionNodeCryptoMiningASICRange1},
+        {buttonLabel: "2000-4000 EURO", node:conclusionNodeCryptoMiningASICRange2},
+        {buttonLabel: "4000+", node:conclusionNodeCryptoMiningASICRange3}
     ]
 }
 const subDecisionTreeCryptoMining = {
