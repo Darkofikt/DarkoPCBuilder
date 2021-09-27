@@ -37,6 +37,7 @@ body {
 .main-menu-list li {
   margin-bottom: 5px;
   list-style: none;
+  cursor: pointer;
 }
 .main-menu-list a {
   display: block;

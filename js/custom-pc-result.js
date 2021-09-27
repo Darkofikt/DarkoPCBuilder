@@ -110,6 +110,15 @@ function openCard(e) {
             productCard.style.display = "none";
         }
     }
+
+    for(let productButton of productButtons) {
+        let product = productButton.getAttribute("data-product");
+        if(productToOpen == product) {
+            productButton.className += " menuActive";
+        } else {
+            productButton.className = productButton.className.replace(" menuActive", "");
+        }
+    }
 }
 
 function getCardForGivenProduct(product) {
