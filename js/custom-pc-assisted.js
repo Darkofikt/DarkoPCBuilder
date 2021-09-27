@@ -1231,369 +1231,253 @@ const subDecisionTreeCryptoMining = {
 const conclusionNodeGamingAMDAMD32GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "Ryzen 5 3600X",
+        gpu: "Ryzen 5700 XT",
         ram: "32GB 2666MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI MPG X570 GAMING PLUS",
+        psu: "600W 80+ Gold"
+
     }
 }
 const conclusionNodeGamingAMDAMD32GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "Ryzen 5 3600X",
+        gpu: "Ryzen 5700 XT",
         ram: "32GB 3000MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI MPG X570 GAMING PLUS",
+        psu: "600W 80+ Gold"
+
     }
 }
 const conclusionNodeGamingAMDAMD32GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "Ryzen 5 3600X",
+        gpu: "Ryzen 5700 XT",
         ram: "32GB 3200MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI MPG X570 GAMING PLUS",
+        psu: "600W 80+ Gold"
+
     }
 }
 const conclusionNodeGamingAMDAMD64GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "Ryzen 7 3700X",
+        gpu: "Ryzen 5700 XT",
         ram: "64GB 2666MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI MPG X570 GAMING PLUS",
+        psu: "600W 80+ Gold"
     }
 }
 const conclusionNodeGamingAMDAMD64GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "Ryzen 7 3700X",
+        gpu: "Ryzen 5700 XT",
         ram: "64GB 3000MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI MPG X570 GAMING PLUS",
+        psu: "600W 80+ Gold"
     }
 }
 const conclusionNodeGamingAMDAMD64GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "Ryzen 7 3700X",
+        gpu: "Ryzen 5700 XT",
         ram: "64GB 3200MHz",
-        mobo: "Gaming",
-        psu: ""
-    }
-}
-
-const conclusionNodeGamingAMDAMD128GB2666preference = {
-    type: "conclusion",
-    conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
-        ram: "128GB 2666MHz",
-        mobo: "Gaming",
-        psu: ""
-    }
-}
-const conclusionNodeGamingAMDAMD128GB3000preference = {
-    type: "conclusion",
-    conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
-        ram: "128GB 3000MHz",
-        mobo: "Gaming",
-        psu: ""
-    }
-}
-const conclusionNodeGamingAMDAMD128GB3200preference = {
-    type: "conclusion",
-    conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
-        ram: "128GB 3200MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI MPG X570 GAMING PLUS",
+        psu: "600W 80+ Gold"
     }
 }
 const conclusionNodeGamingAMDINTEL32GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel i5-10400F",
+        gpu: "Radeon 5700 XT",
         ram: "32GB 2666MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI Z490-A PRO",
+        psu: "650W 80+ Gold"
+
     }
 }
 const conclusionNodeGamingAMDINTEL32GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel i5-10400F",
+        gpu: "Radeon 5700 XT",
         ram: "32GB 3000MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI Z490-A PRO",
+        psu: "650W 80+ Gold"
+
     }
 }
 const conclusionNodeGamingAMDINTEL32GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel i5-10400F",
+        gpu: "Radeon 5700 XT",
         ram: "32GB 3200MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI Z490-A PRO",
+        psu: "650W 80+ Gold"
+
     }
 }
 const conclusionNodeGamingAMDINTEL64GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel Core i7-11700K",
+        gpu: "Radeon 5700 XT",
         ram: "64GB 2666MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI Z490-A PRO",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeGamingAMDINTEL64GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel Core i7-11700K",
+        gpu: "Radeon 5700 XT",
         ram: "64GB 3000MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI Z490-A PRO",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeGamingAMDINTEL64GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel Core i7-11700K",
+        gpu: "Radeon 5700 XT",
         ram: "64GB 3200MHz",
-        mobo: "Gaming",
-        psu: ""
-    }
-}
-const conclusionNodeGamingAMDINTEL128GB2666preference = {
-    type: "conclusion",
-    conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
-        ram: "128GB 2666MHz",
-        mobo: "Gaming",
-        psu: ""
-    }
-}
-
-const conclusionNodeGamingAMDINTEL128GB3000preference = {
-    type: "conclusion",
-    conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
-        ram: "128GB 3000MHz",
-        mobo: "Gaming",
-        psu: ""
-    }
-}
-
-const conclusionNodeGamingAMDINTEL128GB3200preference = {
-    type: "conclusion",
-    conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
-        ram: "128GB 3200MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI Z490-A PRO",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeGamingNVIDIAINTEL32GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel i5-10400F",
+        gpu: "Nvidia GTX 1660 Ti",
         ram: "32GB 2666MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI Z490-A PRO",
+        psu: "650W 80+ Gold"
+
     }
 }
 const conclusionNodeGamingNVIDIAINTEL32GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel i5-10400F",
+        gpu: "Nvidia GTX 1660 Ti",
         ram: "32GB 3000MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI Z490-A PRO",
+        psu: "650W 80+ Gold"
+
     }
 }
 const conclusionNodeGamingNVIDIAINTEL32GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel i5-10400F",
+        gpu: "Nvidia 1660 Ti",
         ram: "32GB 3200MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI Z490-A PRO",
+        psu: "650W 80+ Gold"
+
     }
 }
 const conclusionNodeGamingNVIDIAINTEL64GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel Core i7-11700K",
+        gpu: "Nvidia RTX 3070",
         ram: "64GB 2666MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI Z490-A PRO",
+        psu: "750W 80+ Gold"
     }
 }
 const conclusionNodeGamingNVIDIAINTEL64GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel Core i7-11700K",
+        gpu: "Nvidia RTX 3070",
         ram: "64GB 3000MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI Z490-A PRO",
+        psu: "750W 80+ Gold"
     }
 }
 const conclusionNodeGamingNVIDIAINTEL64GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel Core i7-11700K",
+        gpu: "Nvidia RTX 3070",
         ram: "64GB 3200MHz",
-        mobo: "Gaming",
-        psu: ""
-    }
-}
-
-const conclusionNodeGamingNVIDIAINTEL128GB2666preference = {
-    type: "conclusion",
-    conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
-        ram: "128GB 2666MHz",
-        mobo: "Gaming",
-        psu: ""
-    }
-}
-const conclusionNodeGamingNVIDIAINTEL128GB3000preference = {
-    type: "conclusion",
-    conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
-        ram: "128GB 3000MHz",
-        mobo: "Gaming",
-        psu: ""
-    }
-}
-const conclusionNodeGamingNVIDIAINTEL128GB3200preference = {
-    type: "conclusion",
-    conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
-        ram: "128GB 3200MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI Z490-A PRO",
+        psu: "750W 80+ Gold"
     }
 }
 const conclusionNodeGamingNVIDIAAMD32GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "Ryzen 5 3600X",
+        gpu: "Nvidia GTX 1660 Ti",
         ram: "32GB 2666MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI MPG X570 GAMING PLUS",
+        psu: "650W 80+ Gold"
     }
 }
 const conclusionNodeGamingNVIDIAAMD32GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "Ryzen 5 3600X",
+        gpu: "Nvidia GTX 1660 Ti",
         ram: "32GB 3000MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI MPG X570 GAMING PLUS",
+        psu: "650W 80+ Gold"
     }
 }
 const conclusionNodeGamingNVIDIAAMD32GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "Ryzen 5 3600X",
+        gpu: "Nvidia GTX 1660 Ti",
         ram: "32GB 3200MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI MPG X570 GAMING PLUS",
+        psu: "650W 80+ Gold"
     }
 }
 const conclusionNodeGamingNVIDIAAMD64GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "Ryzen 7 3700X",
+        gpu: "Nvidia RTX 3070",
         ram: "64GB 2666MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI MPG X570 GAMING PLUS",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeGamingNVIDIAAMD64GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "Ryzen 7 3700X",
+        gpu: "Nvidia RTX 3070",
         ram: "64GB 3000MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI MPG X570 GAMING PLUS",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeGamingNVIDIAAMD64GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "Ryzen 7 3700X",
+        gpu: "Nvidia RTX 3070",
         ram: "64GB 3200MHz",
-        mobo: "Gaming",
-        psu: ""
-    }
-}
-const conclusionNodeGamingNVIDIAAMD128GB2666preference = {
-    type: "conclusion",
-    conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
-        ram: "128GB 2666MHz",
-        mobo: "Gaming",
-        psu: ""
+        mobo: "MSI MPG X570 GAMING PLUS",
+        psu: "700W 80+ Gold"
     }
 }
 
-const conclusionNodeGamingNVIDIAAMD128GB3000preference = {
-    type: "conclusion",
-    conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
-        ram: "128GB 3000MHz",
-        mobo: "Gaming",
-        psu: ""
-    }
-}
-
-const conclusionNodeGamingNVIDIAAMD128GB3200preference = {
-    type: "conclusion",
-    conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
-        ram: "128GB 3200MHz",
-        mobo: "Gaming",
-        psu: ""
-    }
-}
 const subDecisionTreeGamingNVIDIAINTEL32RAMSpeedpreference = {
     type: "question" ,
     question: "What ram speed do you want to use?",
@@ -1612,15 +1496,7 @@ const subDecisionTreeGamingNVIDIAINTEL64RAMSpeedpreference = {
         {buttonLabel: "3200MHz", node: conclusionNodeGamingNVIDIAINTEL64GB3200preference}
     ]
 }
-const subDecisionTreeGamingNVIDIAINTEL128RAMSpeedpreference = {
-    type: "question" ,
-    question: "What ram speed do you want to use?",
-    answers: [
-        {buttonLabel: "2666MHz", node: conclusionNodeGamingNVIDIAINTEL128GB2666preference},
-        {buttonLabel: "3000MHz", node: conclusionNodeGamingNVIDIAINTEL128GB3000preference},
-        {buttonLabel: "3200MHz", node: conclusionNodeGamingNVIDIAINTEL128GB3200preference}
-    ]
-}
+
 
 const subDecisionTreeGamingNVIDIAAMD32RAMSpeedpreference = {
     type: "question" ,
@@ -1640,15 +1516,7 @@ const subDecisionTreeGamingNVIDIAAMD64RAMSpeedpreference = {
         {buttonLabel: "3200MHz", node: conclusionNodeGamingNVIDIAAMD64GB3200preference}
     ]
 }
-const subDecisionTreeGamingNVIDIAAMD128RAMSpeedpreference = {
-    type: "question" ,
-    question: "What ram speed do you want to use?",
-    answers: [
-        {buttonLabel: "2666MHz", node: conclusionNodeGamingNVIDIAAMD128GB2666preference},
-        {buttonLabel: "3000MHz", node: conclusionNodeGamingNVIDIAAMD128GB3000preference},
-        {buttonLabel: "3200MHz", node: conclusionNodeGamingNVIDIAAMD128GB3200preference}
-    ]
-}
+
 
 
 
@@ -1658,7 +1526,6 @@ const subDecisionTreeGamingNVIDIAINTELRAMSizepreference = {
     answers: [
         {buttonLabel: "32GB", node: subDecisionTreeGamingNVIDIAINTEL32RAMSpeedpreference},
         {buttonLabel: "64GB", node: subDecisionTreeGamingNVIDIAINTEL64RAMSpeedpreference},
-        {buttonLabel: "128GB", node: subDecisionTreeGamingNVIDIAINTEL128RAMSpeedpreference},
     ]
 }
 const subDecisionTreeGamingNVIDIAAMDRAMSizepreference = {
@@ -1667,7 +1534,6 @@ const subDecisionTreeGamingNVIDIAAMDRAMSizepreference = {
     answers: [
         {buttonLabel: "32GB", node: subDecisionTreeGamingNVIDIAAMD32RAMSpeedpreference},
         {buttonLabel: "64GB", node: subDecisionTreeGamingNVIDIAAMD64RAMSpeedpreference},
-        {buttonLabel: "128GB", node: subDecisionTreeGamingNVIDIAAMD128RAMSpeedpreference},
     ]
 }
 
@@ -1698,15 +1564,7 @@ const subDecisionTreeGamingAMDINTEL64RAMSpeedpreference = {
         {buttonLabel: "3200MHz", node: conclusionNodeGamingAMDINTEL64GB3200preference}
     ]
 }
-const subDecisionTreeGamingAMDINTEL128RAMSpeedpreference = {
-    type: "question" ,
-    question: "What ram speed do you want to use?",
-    answers: [
-        {buttonLabel: "2666MHz", node: conclusionNodeGamingAMDINTEL128GB2666preference},
-        {buttonLabel: "3000MHz", node: conclusionNodeGamingAMDINTEL128GB3000preference},
-        {buttonLabel: "3200MHz", node: conclusionNodeGamingAMDINTEL128GB3200preference}
-    ]
-}
+
 
 const subDecisionTreeGamingAMDAMD32RAMSpeedpreference = {
     type: "question" ,
@@ -1726,15 +1584,6 @@ const subDecisionTreeGamingAMDAMD64RAMSpeedpreference = {
         {buttonLabel: "3200MHz", node: conclusionNodeGamingAMDAMD64GB3200preference}
     ]
 }
-const subDecisionTreeGamingAMDAMD128RAMSpeedpreference = {
-    type: "question" ,
-    question: "What ram speed do you want to use?",
-    answers: [
-        {buttonLabel: "2666MHz", node: conclusionNodeGamingAMDAMD128GB2666preference},
-        {buttonLabel: "3000MHz", node: conclusionNodeGamingAMDAMD128GB3000preference},
-        {buttonLabel: "3200MHz", node: conclusionNodeGamingAMDAMD128GB3200preference}
-    ]
-}
 
 
 
@@ -1744,7 +1593,6 @@ const subDecisionTreeGamingAMDINTELRAMSizepreference = {
     answers: [
         {buttonLabel: "32GB", node: subDecisionTreeGamingAMDINTEL32RAMSpeedpreference},
         {buttonLabel: "64GB", node: subDecisionTreeGamingAMDINTEL64RAMSpeedpreference},
-        {buttonLabel: "128GB", node: subDecisionTreeGamingAMDINTEL128RAMSpeedpreference},
     ]
 }
 const subDecisionTreeGamingAMDAMDRAMSizepreference = {
@@ -1753,7 +1601,6 @@ const subDecisionTreeGamingAMDAMDRAMSizepreference = {
     answers: [
         {buttonLabel: "32GB", node: subDecisionTreeGamingAMDAMD32RAMSpeedpreference},
         {buttonLabel: "64GB", node: subDecisionTreeGamingAMDAMD64RAMSpeedpreference},
-        {buttonLabel: "128GB", node: subDecisionTreeGamingAMDAMD128RAMSpeedpreference},
     ]
 }
 
@@ -1779,40 +1626,43 @@ const subDecisionTreeGamingGPUpreference = {
 const conclusionNodeGamingNopreferenceRange1 = {
     type: "conclusion",
     conclusion: {
-        cpu: "RANGE 1",
-        gpu: "",
-        ram: "",
-        mobo:"gaming no preference",
-        psu: ""
+        cpu: "Ryzen 5 3600",
+        gpu: "Nvidia GTX 1660 Ti",
+        ram: "16GB 3200MHz",
+        mobo: "MSI MPG X570 GAMING  PLUS",
+        psu: "600W 80+ Gold",
+	    price: "950 Euro"
     }
 }
 const conclusionNodeGamingNopreferenceRange2 = {
     type: "conclusion",
     conclusion: {
-        cpu: "RANGE 2",
-        gpu: "",
-        ram: "",
-        mobo:"gaming no preference",
-        psu: ""
+        cpu: "Ryzen 7 3700x",
+        gpu: "Nvidia RTX 3080",
+        ram: "32GB 3200MHz",
+        mobo: "MSI MPG X570 GAMING PLUS",
+        psu: "700W 80+ Gold",
+	    price: "1500 Euro"
     }
 }
 const conclusionNodeGamingNopreferenceRange3 = {
     type: "conclusion",
     conclusion: {
-        cpu: "RANGE 3",
-        gpu: "",
-        ram: "",
-        mobo:"gaming no preference",
-        psu: ""
+        cpu: "Ryzen 7 5800x",
+        gpu: "Nvidia RTX 3080 Ti",
+        ram: "32GB 3600MHz",
+        mobo: "Gigabyte X570 Aorus Ultra",
+        psu: "750W 80+ Gold",
+	    price: "2500 Euro"
     }
 }
 const subDecisionTreeGamingNopreferenceRange = {
     type: "question",
     question: "What is your price range?",
     answers: [
-        {buttonLabel: "PriceRange1", node:conclusionNodeGamingNopreferenceRange1},
-        {buttonLabel: "PriceRange2", node:conclusionNodeGamingNopreferenceRange2},
-        {buttonLabel: "PriceRange3", node:conclusionNodeGamingNopreferenceRange3}
+        {buttonLabel: "700-1200 Euro", node:conclusionNodeGamingNopreferenceRange1},
+        {buttonLabel: "1200-2000 Euro", node:conclusionNodeGamingNopreferenceRange2},
+        {buttonLabel: "2000-3000 Euro", node:conclusionNodeGamingNopreferenceRange3}
     ]
 }
 
