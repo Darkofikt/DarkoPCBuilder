@@ -65,7 +65,7 @@ const pcParts = {
         {
             brand: "NVIDIA",
             model: "GTX 3070 Ti",
-            vram: "68",
+            vram: "8",
             price: 520,
         },
         {
