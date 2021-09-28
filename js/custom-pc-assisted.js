@@ -1183,21 +1183,21 @@ const conclusionNodeCryptoMiningASICRange1 = {
     type: "conclusion",
     conclusion: {
         miner: "ANTMINER D7",
-        price: "1,550 Euro"
+        price: "1550 Euro"
     }
 }
 const conclusionNodeCryptoMiningASICRange2 = {
     type: "conclusion",
     conclusion: {
         miner: "ANTMINER Z15",
-        price: "3,400 Euro"
+        price: "3400 Euro"
     }
 }
 const conclusionNodeCryptoMiningASICRange3 = {
     type: "conclusion",
     conclusion: {
         miner: "ANTMINER L7",
-        price: "4,850 Euro"
+        price: "4850 Euro"
     }
 }
 const subDecisionTreePCMinerRange = {
@@ -2350,12 +2350,9 @@ function createRow(label,value){
 
 function displayConclusion(conclusion) {
     console.log(conclusion);
-    reportContainer.appendChild(createRow("CPU: " , conclusion["cpu"]))
-    reportContainer.appendChild(createRow("GPU: " , conclusion["gpu"]))
-    reportContainer.appendChild(createRow("RAM: " , conclusion["ram"]))
-    reportContainer.appendChild(createRow("MOBO: " , conclusion["mobo"]))
-    reportContainer.appendChild(createRow("PSU: " , conclusion["psu"]))
-    // conclusionContainer.innerText = JSON.stringify(conclusion);
+    for (let key of Object.keys(conclusion)){
+        reportContainer.appendChild(createRow(key.toUpperCase() + ": ",conclusion[key]));
+    }
 }
 
 function runExpert(currentNode) {
