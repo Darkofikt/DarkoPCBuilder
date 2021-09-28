@@ -11,23 +11,56 @@ function displayGpus(gpus) {
     function outputGpu(gpu) {
         let div = document.createElement("div");
         div.className = "product-entry";
+
+        let productInfo = document.createElement("div");
+        productInfo.className = "product-info";
+        let price = document.createElement("div");
+        price.className = "product-price";
+
         let gpuStr = gpu.brand + " " + gpu.model + " " + gpu.vram + "GB ";
-        div.innerText = gpuStr;
+        productInfo.innerText = gpuStr;
+        price.innerText = gpu.price + " eur";
+
+        let addButton = document.createElement("div");
+        addButton.className = "add-product";
+        addButton.onclick = selectProduct;
+        addButton.innerText = "+";
+
+        div.appendChild(productInfo);
+        div.appendChild(price);
+        div.appendChild(addButton);
+
         return div;
     }
 
     let gpuCard = getCardForGivenProduct("gpu");
     for(let gpu of gpus) {
         gpuCard.appendChild(outputGpu(gpu));
-    }1
+    }
 }
 
 function displayMobos(mobos) {
     function outputMobo(mobo) {
         let div = document.createElement("div");
         div.className = "product-entry";
+
+        let productInfo = document.createElement("div");
+        productInfo.className = "product-info";
+        let price = document.createElement("div");
+        price.className = "product-price";
+
         let moboStr = mobo.brand + " " + mobo.model + " " + mobo.socket;
-        div.innerText = moboStr;
+        productInfo.innerText = moboStr;
+        price.innerText = mobo.price + " eur";
+
+        let addButton = document.createElement("div");
+        addButton.className = "add-product";
+        addButton.onclick = selectProduct;
+        addButton.innerText = "+";
+
+        div.appendChild(productInfo);
+        div.appendChild(price);
+        div.appendChild(addButton);
         return div;
     }
 
@@ -41,8 +74,25 @@ function displayCpus(cpus) {
     function outputCpu(cpu) {
         let div = document.createElement("div");
         div.className = "product-entry";
+
+        let productInfo = document.createElement("div");
+        productInfo.className = "product-info";
+        let price = document.createElement("div");
+        price.className = "product-price";
+
         let cpuStr = cpu.brand + " " + cpu.model + " " + cpu.socket;
-        div.innerText = cpuStr;
+        productInfo.innerText = cpuStr;
+
+        price.innerText = cpu.price + " eur";
+
+        let addButton = document.createElement("div");
+        addButton.className = "add-product";
+        addButton.onclick = selectProduct;
+        addButton.innerText = "+";
+
+        div.appendChild(productInfo);
+        div.appendChild(price);
+        div.appendChild(addButton);
         return div;
     }
 
@@ -56,8 +106,25 @@ function displayRams(rams) {
     function outputRam(ram) {
         let div = document.createElement("div");
         div.className = "product-entry";
+
+        let productInfo = document.createElement("div");
+        productInfo.className = "product-info";
+        let price = document.createElement("div");
+        price.className = "product-price";
+
         let ramStr = ram.brand + " " + ram.model + " " + ram.size + "GB " + ram.speed + "MHz";
-        div.innerText = ramStr;
+        productInfo.innerText = ramStr;
+        
+        price.innerText = ram.price + " eur";
+
+        let addButton = document.createElement("div");
+        addButton.className = "add-product";
+        addButton.onclick = selectProduct;
+        addButton.innerText = "+";
+
+        div.appendChild(productInfo);
+        div.appendChild(price);
+        div.appendChild(addButton);
         return div;
     }
 
@@ -71,8 +138,25 @@ function displayPsus(psus) {
     function outputPsu(psu) {
         let div = document.createElement("div");
         div.className = "product-entry";
+
+        let productInfo = document.createElement("div");
+        productInfo.className = "product-info";
+        let price = document.createElement("div");
+        price.className = "product-price";
+
         let psuStr = psu.brand + " " + psu.wattage + "W " + psu.certification;
-        div.innerText = psuStr;
+        productInfo.innerText = psuStr;
+
+        price.innerText = psu.price + " eur";
+        
+        let addButton = document.createElement("div");
+        addButton.className = "add-product";
+        addButton.onclick = selectProduct;
+        addButton.innerText = "+";
+
+        div.appendChild(productInfo);
+        div.appendChild(price);
+        div.appendChild(addButton);
         return div;
     }
 
@@ -98,6 +182,36 @@ if(customPcBuildFilter) {
     
 } else if(budgetPcBuildFilter) {
 
+}
+
+var selectedProductsPrices = {};
+
+function selectProduct(e) {
+    let parent = e.target.parentElement.parentElement;
+    let selectedProduct = parent.getAttribute("data-product");
+    let selectedProductEntryDiv = document.querySelector(`.selected-products > [data-product=${selectedProduct}] > .product-entry`);
+    let selectedProductInfoDiv = selectedProductEntryDiv.querySelector(".product-info");
+    let selectedProductPriceDiv = selectedProductEntryDiv.querySelector(".product-price");
+
+    let productInfoDiv = e.target.parentElement.querySelector(".product-info");
+    let productPriceDiv = e.target.parentElement.querySelector(".product-price");
+    
+    selectedProductsPrices[selectedProduct] = parseInt(productPriceDiv.innerText.split(" ")[0]);
+
+    selectedProductInfoDiv.innerText = productInfoDiv.innerText;
+    selectedProductPriceDiv.innerText = productPriceDiv.innerText;
+
+    let totalPriceDiv = document.querySelector(".selected-products > .total-price > .product-entry > .product-price");
+    totalPriceDiv.innerText = calculateTotalPrice() + " eur";
+}
+
+function calculateTotalPrice() {
+    let result = 0;
+    for(let key of Object.keys(selectedProductsPrices)) {
+        result += selectedProductsPrices[key];
+    }
+
+    return result;
 }
 
 function openCard(e) {

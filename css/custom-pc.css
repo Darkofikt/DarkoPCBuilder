@@ -25,10 +25,6 @@ body {
   margin: 0 auto 100px;
 }
 
-.custom-pc-build {
-  display: none;
-}
-
 .budget-pc-build {
   display: none;
 }
@@ -59,10 +55,14 @@ body {
 
 ul {
   display: flex;
-  width: 640px;
-  justify-content: right;
+  width: 680px;
+  justify-content: center;
   list-style: none;
   text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 ul li {
@@ -91,10 +91,6 @@ ul li a {
   background-color: #6bb9e1;
 }
 
-.back-button {
-  position: relative;
-  left: -60px;
-}
 
 .button-container {
   display: flex;

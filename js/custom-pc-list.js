@@ -4,24 +4,8 @@ var budgetPcBuild = document.querySelector(".budget-pc-build");
 var customPcBuildButton = document.querySelector(".custom-pc-build-button");
 var budgetPcBuildButton = document.querySelector(".budget-pc-build-button");
 
-var generatePCBuildButton;
-
-customPcBuildButton.onclick = openCustomPcBuild;
-budgetPcBuildButton.onclick = openBudgetPcBuild;
-
-function openCustomPcBuild() {
-    customPcBuild.style.display = "block";
-    budgetPcBuild.style.display = "none";
-    generatePCBuildButton = document.querySelector(".result-button");
-    generatePCBuildButton.onclick = saveCustomPcBuildFormData;
-}
-
-function openBudgetPcBuild() {
-    budgetPcBuild.style.display = "block";
-    customPcBuild.style.display = "none";
-    generatePCBuildButton = document.querySelector(".result-button");
-    generatePCBuildButton.onclick = saveBudgetPcBuildFormData;
-}
+var generatePCBuildButton = document.querySelector(".result-button");
+generatePCBuildButton.onclick = saveCustomPcBuildFormData;
 
 function saveCustomPcBuildFormData() {
     let gpuInput = document.querySelector("input[name=gpu]:checked");
