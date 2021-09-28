@@ -5,378 +5,378 @@
 const conclusionNodeModelRenderingNopreference = {
     type: "conclusion",
     conclusion: {
-        cpu: "NO PREFERENCE",
-        gpu: "",
-        ram: "NO PREFERENCE",
-        mobo: "",
-        psu: ""
+        cpu: "AMD Threadripper 3990X",
+        gpu: "Radeon RX 6900 XT",
+        ram: "128GB 3200MHz",
+        mobo: "Gigabyte Aorus Master",
+        psu: "1000W 80+ Gold"
     }
 }
 
 const conclusionNodeModelRenderingAMDAMD32GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "Ryzen 5 3600X",
+        gpu: "Radeon RX 5700 XT",
         ram: "32GB 2666MHz",
-        mobo: "",
-        psu: ""
+        mobo: "ASRock B450M Steel Legend",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingAMDAMD32GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "Ryzen 5 3600X",
+        gpu: "Radeon RX 5700 XT",
         ram: "32GB 3000MHz",
-        mobo: "",
-        psu: ""
+        mobo: "ASRock B450M Steel Legend",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingAMDAMD32GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "Ryzen 5 3600X",
+        gpu: "Radeon RX 5700 XT",
         ram: "32GB 3200MHz",
-        mobo: "",
-        psu: ""
+        mobo: "ASRock B450M Steel Legend",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingAMDAMD64GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "Ryzen 5 3700x",
+        gpu: "Radeon RX 5700 XT",
         ram: "64GB 2666MHz",
-        mobo: "",
-        psu: ""
+        mobo: "Gigabyte X570 Aorus Ultra",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingAMDAMD64GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "Ryzen 5 3700x",
+        gpu: "Radeon RX 5700 XT",
         ram: "64GB 3000MHz",
-        mobo: "",
-        psu: ""
+        mobo: "Gigabyte X570 Aorus Ultra",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingAMDAMD64GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "Ryzen 5 3700x",
+        gpu: "Radeon RX 5700 XT",
         ram: "64GB 3200MHz",
-        mobo: "",
-        psu: ""
+        mobo: "Gigabyte X570 Aorus Ultra",
+        psu: "700W 80+ Gold"
     }
 }
 
 const conclusionNodeModelRenderingAMDAMD128GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "AMD Threadripper 3960X",
+        gpu: "Radeon RX 6900 XT",
         ram: "128GB 2666MHz",
-        mobo: "",
-        psu: ""
+        mobo: "Gigabyte Aorus Master",
+        psu: "1000W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingAMDAMD128GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "AMD Threadripper 3960X",
+        gpu: "Radeon RX 6900 XT",
         ram: "128GB 3000MHz",
-        mobo: "",
-        psu: ""
+        mobo: "Gigabyte Aorus Master",
+        psu: "1000W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingAMDAMD128GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "AMD Threadripper 3960X",
+        gpu: "Radeon RX 6900 XT",
         ram: "128GB 3200MHz",
-        mobo: "",
-        psu: ""
+        mobo: "Gigabyte Aorus Master",
+        psu: "1000W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingAMDINTEL32GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel Core i5-9600K",
+        gpu: "Radeon RX 5700 XT",
         ram: "32GB 2666MHz",
-        mobo: "",
-        psu: ""
+        mobo: "ASUS ROG Z390 Maximus XI Hero",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingAMDINTEL32GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel Core i5-9600K",
+        gpu: "Radeon RX 5700 XT",
         ram: "32GB 3000MHz",
-        mobo: "",
-        psu: ""
+        mobo: "ASUS ROG Z390 Maximus XI Hero",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingAMDINTEL32GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel Core i5-9600K",
+        gpu: "Radeon RX 5700 XT",
         ram: "32GB 3200MHz",
-        mobo: "",
-        psu: ""
+        mobo: "ASUS ROG Z390 Maximus XI Hero",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingAMDINTEL64GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel Core i7-9700k",
+        gpu: "Radeon RX 5700 XT",
         ram: "64GB 2666MHz",
-        mobo: "",
-        psu: ""
+        mobo: "ASUS ROG Z390 Maximus XI Hero",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingAMDINTEL64GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel Core i7-9700k",
+        gpu: "Radeon RX 5700 XT",
         ram: "64GB 3000MHz",
-        mobo: "",
-        psu: ""
+        mobo: "ASUS ROG Z390 Maximus XI Hero",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingAMDINTEL64GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel Core i7-9700k",
+        gpu: "Radeon RX 5700 XT",
         ram: "64GB 3200MHz",
-        mobo: "",
-        psu: ""
+        mobo: "ASUS ROG Z390 Maximus XI Hero",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingAMDINTEL128GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel i9 10980XE",
+        gpu: "Radeon RX 6900 XT",
         ram: "128GB 2666MHz",
-        mobo: "",
-        psu: ""
+        mobo: "MSI X299 TOMAHAWK",
+        psu: "1000W 80+ Gold"
     }
 }
 
 const conclusionNodeModelRenderingAMDINTEL128GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel i9 10980XE",
+        gpu: "Radeon RX 6900 XT",
         ram: "128GB 3000MHz",
-        mobo: "",
-        psu: ""
+        mobo: "MSI X299 TOMAHAWK",
+        psu: "1000W 80+ Gold"
     }
 }
 
 const conclusionNodeModelRenderingAMDINTEL128GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel i9 10980XE",
+        gpu: "Radeon RX 6900 XT",
         ram: "128GB 3200MHz",
-        mobo: "",
-        psu: ""
+        mobo: "MSI X299 TOMAHAWK",
+        psu: "1000W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingNVIDIAINTEL32GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel Core i5-9600K",
+        gpu: "Nvidia RTX 2070",
         ram: "32GB 2666MHz",
-        mobo: "",
-        psu: ""
+        mobo: "ASUS ROG Z390 Maximus XI Hero",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingNVIDIAINTEL32GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel Core i5-9600K",
+        gpu: "Nvidia RTX 2070",
         ram: "32GB 3000MHz",
-        mobo: "",
-        psu: ""
+        mobo: "ASUS ROG Z390 Maximus XI Hero",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingNVIDIAINTEL32GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel Core i5-9600K",
+        gpu: "Nvidia RTX 2070",
         ram: "32GB 3200MHz",
-        mobo: "",
-        psu: ""
+        mobo: "ASUS ROG Z390 Maximus XI Hero",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingNVIDIAINTEL64GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel Core i7-9700k",
+        gpu: "Nvidia RTX 3070",
         ram: "64GB 2666MHz",
-        mobo: "",
-        psu: ""
+        mobo: "ASUS ROG Z390 Maximus XI Hero",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingNVIDIAINTEL64GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel Core i7-9700k",
+        gpu: "Nvidia RTX 3070",
         ram: "64GB 3000MHz",
-        mobo: "",
-        psu: ""
+        mobo: "ASUS ROG Z390 Maximus XI Hero",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingNVIDIAINTEL64GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel Core i7-9700k",
+        gpu: "Nvidia RTX 3070",
         ram: "64GB 3200MHz",
-        mobo: "",
-        psu: ""
+        mobo: "ASUS ROG Z390 Maximus XI Hero",
+        psu: "700W 80+ Gold"
     }
 }
 
 const conclusionNodeModelRenderingNVIDIAINTEL128GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel i9 10980XE",
+        gpu: "Nvidia RTX 3090",
         ram: "128GB 2666MHz",
-        mobo: "",
-        psu: ""
+        mobo: "MSI X299 TOMAHAWK",
+        psu: "1000W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingNVIDIAINTEL128GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel i9 10980XE",
+        gpu: "Nvidia RTX 3090",
         ram: "128GB 3000MHz",
-        mobo: "",
-        psu: ""
+        mobo: "MSI X299 TOMAHAWK",
+        psu: "1000W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingNVIDIAINTEL128GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel i9 10980XE",
+        gpu: "Nvidia RTX 3090",
         ram: "128GB 3200MHz",
-        mobo: "",
-        psu: ""
+        mobo: "MSI X299 TOMAHAWK",
+        psu: "1000W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingNVIDIAAMD32GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "Ryzen 5 3600X",
+        gpu: "Nvidia RTX 2070",
         ram: "32GB 2666MHz",
-        mobo: "",
-        psu: ""
+        mobo: "Gigabyte X570 Aorus Ultra",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingNVIDIAAMD32GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "Ryzen 5 3600X",
+        gpu: "Nvidia RTX 2070",
         ram: "32GB 3000MHz",
-        mobo: "",
-        psu: ""
+        mobo: "Gigabyte X570 Aorus Ultra",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingNVIDIAAMD32GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "Ryzen 5 3600X",
+        gpu: "Nvidia RTX 2070",
         ram: "32GB 3200MHz",
-        mobo: "",
-        psu: ""
+        mobo: "Gigabyte X570 Aorus Ultra",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingNVIDIAAMD64GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "Ryzen 5 3700x",
+        gpu: "Nvidia RTX 3070",
         ram: "64GB 2666MHz",
-        mobo: "",
-        psu: ""
+        mobo: "Gigabyte X570 Aorus Ultra",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingNVIDIAAMD64GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "Ryzen 5 3700x",
+        gpu: "Nvidia RTX 3070",
         ram: "64GB 3000MHz",
-        mobo: "",
-        psu: ""
+        mobo: "Gigabyte X570 Aorus Ultra",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingNVIDIAAMD64GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "Ryzen 5 3700x",
+        gpu: "Nvidia RTX 3070",
         ram: "64GB 3200MHz",
-        mobo: "",
-        psu: ""
+        mobo: "Gigabyte X570 Aorus Ultra",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeModelRenderingNVIDIAAMD128GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "AMD Threadripper 3960X",
+        gpu: "Nvidia RTX 3090",
         ram: "128GB 2666MHz",
-        mobo: "",
-        psu: ""
+        mobo: "Gigabyte Aorus Master",
+        psu: "1000W 80+ Gold"
     }
 }
 
 const conclusionNodeModelRenderingNVIDIAAMD128GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "AMD Threadripper 3960X",
+        gpu: "Nvidia RTX 3090",
         ram: "128GB 3000MHz",
-        mobo: "",
-        psu: ""
+        mobo: "Gigabyte Aorus Master",
+        psu: "1000W 80+ Gold"
     }
 }
 
 const conclusionNodeModelRenderingNVIDIAAMD128GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "AMD Threadripper 3960X",
+        gpu: "Nvidia RTX 3090",
         ram: "128GB 3200MHz",
-        mobo: "",
-        psu: ""
+        mobo: "Gigabyte Aorus Master",
+        psu: "1000W 80+ Gold"
     }
 }
 const subDecisionTreeModelRenderingNVIDIAINTEL32RAMSpeedpreference = {
@@ -1682,378 +1682,378 @@ const subDecisionTreeGaming = {
 const conclusionNodeCADSOFTWARENopreference = {
     type: "conclusion",
     conclusion: {
-        cpu: "NO PREFERENCE",
-        gpu: "",
-        ram: "NO PREFERENCE",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        cpu: "AMD Threadripper 3990X",
+        gpu: "Nvidia Quadro RTX 6000",
+        ram: "128GB 3200MHz",
+        mobo: "ASUS ROG Zenith II Extreme",
+        psu: "1200 80+ Gold"
     }
 }
 
 const conclusionNodeCADSOFTWAREAMDAMD32GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "Ryzen 9 3950X",
+        gpu: "Radeon RX 6800",
         ram: "32GB 2666MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS ROG Strix X570-E",
+        psu: "750W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWAREAMDAMD32GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "Ryzen 9 3950X",
+        gpu: "Radeon RX 6800",
         ram: "32GB 3000MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS ROG Strix X570-E",
+        psu: "750W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWAREAMDAMD32GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "Ryzen 9 3950X",
+        gpu: "Radeon RX 6800",
         ram: "32GB 3200MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS ROG Strix X570-E",
+        psu: "750W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWAREAMDAMD64GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "Ryzen 9 5950X",
+        gpu: "Radeon RX 6800 XT",
         ram: "64GB 2666MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS ROG Strix X570-E",
+        psu: "750W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWAREAMDAMD64GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "Ryzen 9 5950X",
+        gpu: "Radeon RX 6800 XT",
         ram: "64GB 3000MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS ROG Strix X570-E",
+        psu: "750W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWAREAMDAMD64GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "Ryzen 9 5950X",
+        gpu: "Radeon RX 6800 XT",
         ram: "64GB 3200MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS ROG Strix X570-E",
+        psu: "750W 80+ Gold"
     }
 }
 
 const conclusionNodeCADSOFTWAREAMDAMD128GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "AMD Threadripper 3990X",
+        gpu: "Radeon PRO W6600",
         ram: "128GB 2666MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS ROG Zenith II Extreme",
+        psu: "1000W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWAREAMDAMD128GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "AMD Threadripper 3990X",
+        gpu: "Radeon PRO W6600",
         ram: "128GB 3000MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS ROG Zenith II Extreme",
+        psu: "1000W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWAREAMDAMD128GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "AMD",
+        cpu: "AMD Threadripper 3990X",
+        gpu: "Radeon PRO W6600",
         ram: "128GB 3200MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS ROG Zenith II Extreme",
+        psu: "1000W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWAREAMDINTEL32GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel i7 10700K",
+        gpu: "Radeon RX 6800",
         ram: "32GB 2666MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS TUF Gaming Z490-Plus",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWAREAMDINTEL32GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel i7 10700K",
+        gpu: "Radeon RX 6800",
         ram: "32GB 3000MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS TUF Gaming Z490-Plus",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWAREAMDINTEL32GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel i7 10700K",
+        gpu: "Radeon RX 6800",
         ram: "32GB 3200MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS TUF Gaming Z490-Plus",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWAREAMDINTEL64GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel i9 11900K",
+        gpu: "Radeon RX 6800 XT",
         ram: "64GB 2666MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS TUF Gaming Z490-Plus",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWAREAMDINTEL64GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel i9 11900K",
+        gpu: "Radeon RX 6800 XT",
         ram: "64GB 3000MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS TUF Gaming Z490-Plus",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWAREAMDINTEL64GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel i9 11900K",
+        gpu: "Radeon RX 6800 XT",
         ram: "64GB 3200MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS TUF Gaming Z490-Plus",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWAREAMDINTEL128GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel i9 9980XE",
+        gpu: "Radeon PRO W6600",
         ram: "128GB 2666MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASRock X299 Steel Legend",
+        psu: "1000W 80+ Gold"
     }
 }
 
 const conclusionNodeCADSOFTWAREAMDINTEL128GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel i9 9980XE",
+        gpu: "Radeon PRO W6600",
         ram: "128GB 3000MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASRock X299 Steel Legend",
+        psu: "1000W 80+ Gold"
     }
 }
 
 const conclusionNodeCADSOFTWAREAMDINTEL128GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "AMD",
+        cpu: "Intel i9 9980XE",
+        gpu: "Radeon PRO W6600",
         ram: "128GB 3200MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASRock X299 Steel Legend",
+        psu: "1000W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWARENVIDIAINTEL32GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel i7 10700K",
+        gpu: "Nvidia RTX 3080",
         ram: "32GB 2666MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS TUF Gaming Z490-Plus",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWARENVIDIAINTEL32GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel i7 10700K",
+        gpu: "Nvidia RTX 3080",
         ram: "32GB 3000MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS TUF Gaming Z490-Plus",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWARENVIDIAINTEL32GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel i7 10700K",
+        gpu: "Nvidia RTX 3080",
         ram: "32GB 3200MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS TUF Gaming Z490-Plus",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWARENVIDIAINTEL64GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel i9 11900K",
+        gpu: "Nvidia RTX 3090",
         ram: "64GB 2666MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS TUF Gaming Z490-Plus",
+        psu: "850W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWARENVIDIAINTEL64GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel i9 11900K",
+        gpu: "Nvidia RTX 3090",
         ram: "64GB 3000MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS TUF Gaming Z490-Plus",
+        psu: "850W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWARENVIDIAINTEL64GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel i9 11900K",
+        gpu: "Nvidia RTX 3090",
         ram: "64GB 3200MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS TUF Gaming Z490-Plus",
+        psu: "850W 80+ Gold"
     }
 }
 
 const conclusionNodeCADSOFTWARENVIDIAINTEL128GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel i9 9980XE",
+        gpu: "Nvidia Quadro RTX 6000",
         ram: "128GB 2666MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASRock X299 Steel Legend",
+        psu: "1200W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWARENVIDIAINTEL128GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel i9 9980XE",
+        gpu: "Nvidia Quadro RTX 6000",
         ram: "128GB 3000MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASRock X299 Steel Legend",
+        psu: "1200W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWARENVIDIAINTEL128GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "INTEL",
-        gpu: "NVIDIA",
+        cpu: "Intel i9 9980XE",
+        gpu: "Nvidia Quadro RTX 6000",
         ram: "128GB 3200MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASRock X299 Steel Legend",
+        psu: "1200W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWARENVIDIAAMD32GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
-        ram: "32GB 2666MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        cpu: "Ryzen 9 3950X",
+        gpu: "Nvidia RTX 3080",
+        ram: "32B 2666MHz",
+        mobo: "ASUS TUF Gaming Z490-Plus",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWARENVIDIAAMD32GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
-        ram: "32GB 3000MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        cpu: "Ryzen 9 3950X",
+        gpu: "Nvidia RTX 3080",
+        ram: "32B 3000MHz",
+        mobo: "ASUS TUF Gaming Z490-Plus",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWARENVIDIAAMD32GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
-        ram: "32GB 3200MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        cpu: "Ryzen 9 3950X",
+        gpu: "Nvidia RTX 3080",
+        ram: "32B 3200MHz",
+        mobo: "ASUS TUF Gaming Z490-Plus",
+        psu: "700W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWARENVIDIAAMD64GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
-        ram: "64GB 2666MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        cpu: "Ryzen 9 5950X",
+        gpu: "Nvidia RTX 3090",
+        ram: "64B 2666MHz",
+        mobo: "ASUS TUF Gaming Z490-Plus",
+        psu: "750W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWARENVIDIAAMD64GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
-        ram: "64GB 3000MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        cpu: "Ryzen 9 5950X",
+        gpu: "Nvidia RTX 3090",
+        ram: "64B 3000MHz",
+        mobo: "ASUS TUF Gaming Z490-Plus",
+        psu: "750W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWARENVIDIAAMD64GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
-        ram: "64GB 3200MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        cpu: "Ryzen 9 5950X",
+        gpu: "Nvidia RTX 3090",
+        ram: "64B 3200MHz",
+        mobo: "ASUS TUF Gaming Z490-Plus",
+        psu: "750W 80+ Gold"
     }
 }
 const conclusionNodeCADSOFTWARENVIDIAAMD128GB2666preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "AMD Threadripper 3990X",
+        gpu: "Nvidia Quadro RTX 6000",
         ram: "128GB 2666MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS ROG Zenith II Extreme",
+        psu: "1200W 80+ Gold"
     }
 }
 
 const conclusionNodeCADSOFTWARENVIDIAAMD128GB3000preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "AMD Threadripper 3990X",
+        gpu: "Nvidia Quadro RTX 6000",
         ram: "128GB 3000MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS ROG Zenith II Extreme",
+        psu: "1200W 80+ Gold"
     }
 }
 
 const conclusionNodeCADSOFTWARENVIDIAAMD128GB3200preference = {
     type: "conclusion",
     conclusion: {
-        cpu: "AMD",
-        gpu: "NVIDIA",
+        cpu: "AMD Threadripper 3990X",
+        gpu: "Nvidia Quadro RTX 6000",
         ram: "128GB 3200MHz",
-        mobo: "CADSOFTWARE",
-        psu: ""
+        mobo: "ASUS ROG Zenith II Extreme",
+        psu: "1200W 80+ Gold"
     }
 }
 const subDecisionTreeCADSOFTWARENVIDIAINTEL32RAMSpeedpreference = {
